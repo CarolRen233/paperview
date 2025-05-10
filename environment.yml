@@ -1,0 +1,18 @@
+name: literature-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - wordcloud
+  - networkx
+  - scikit-learn
+  - plotly
+  - notebook
+  - pip
+  - pip:
+    - plotly-express

@@ -1,0 +1,68 @@
+Keyword Analysis Report: 'topology optimisation'
+============================================================
+
+1. Top 10 Co-occurring Keywords:
+----------------------------------------
+1. continuous fibers (Count: 4)
+2. cfrp (Count: 4)
+3. topology optimization method (Count: 3)
+4. principal stress orientation (Count: 3)
+5. additive manufacturing (am) (Count: 2)
+6. printing paths (Count: 2)
+7. shape optimization (Count: 2)
+8. optimization (Count: 2)
+9. printing path planning (Count: 2)
+10. topology (Count: 2)
+
+2. Top 5 Highly Cited Papers (All Time):
+----------------------------------------
+1. Title: Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology
+   Authors: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   Year: 2023
+   Citations: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+2. Title: A modified equally-spaced method (MEQS) for fibre placement in additive manufacturing of topology-optimised continuous carbon fibre-reinforced polymer composite structures
+   Authors: Wang S.; Zhang H.; Li A.; Ahmad Abdul Qayyum J.; Wang Y.; He Z.; Liu J.; Yang D.
+   Year: 2024
+   Citations: 8
+   DOI: 10.1016/j.compstruct.2024.117998
+
+3. Title: Concurrent optimization of continuous carbon fiber-reinforced composites with multi-scale components considering the manufacturing constraint
+   Authors: Sun B.; Xing Y.; Lv P.; Zhou J.; Liu C.; Duan H.; Liang X.
+   Year: 2025
+   Citations: 0
+   DOI: 10.1016/j.compscitech.2024.110942
+
+3. Top 5 Highly Cited Papers (Last 3 Years, 2022-2025):
+----------------------------------------
+1. Title: Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology
+   Authors: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   Year: 2023
+   Citations: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+2. Title: A modified equally-spaced method (MEQS) for fibre placement in additive manufacturing of topology-optimised continuous carbon fibre-reinforced polymer composite structures
+   Authors: Wang S.; Zhang H.; Li A.; Ahmad Abdul Qayyum J.; Wang Y.; He Z.; Liu J.; Yang D.
+   Year: 2024
+   Citations: 8
+   DOI: 10.1016/j.compstruct.2024.117998
+
+3. Title: Concurrent optimization of continuous carbon fiber-reinforced composites with multi-scale components considering the manufacturing constraint
+   Authors: Sun B.; Xing Y.; Lv P.; Zhou J.; Liu C.; Duan H.; Liang X.
+   Year: 2025
+   Citations: 0
+   DOI: 10.1016/j.compscitech.2024.110942
+
+4. Top Institutions Publishing Papers on this Keyword:
+----------------------------------------
+1. State Key Laboratory for Turbulence and Complex Systems, Department of Mechanics and Engineering Science, College of Engineering, Peking University, Beijing, 100871, China (Paper Count: 1)
+2. Defense Innovation Institute, Academy of Military Science, Beijing, 100071, China (Paper Count: 1)
+3. School of Mechanical Engineering, Xi'an Jiaotong University, Xi'an, 710049, China (Paper Count: 1)
+4. CAPT, HEDPS and IFSA Collaborative Innovation Center of MoE, Peking University, Beijing, 100871, China (Paper Count: 1)
+5. School of Engineering, Institute for Materials and Processes, University of Edinburgh, Edinburgh, EH9 3FB, United Kingdom (Paper Count: 1)
+6. State Key Laboratory of Advanced Design and Manufacturing for Vehicle Body, College of Mechanical and Vehicle Engineering, Hunan University, Changsha, 410082, China (Paper Count: 1)
+7. School of Computing, University of Leeds, Leeds, LS2 9JT, United Kingdom (Paper Count: 1)
+8. Faculty of Materials and Manufacturing, Beijing University of Technology, Beijing, 100124, China (Paper Count: 1)
+9. College of Engineering, Peking University, Beijing, 100871, China (Paper Count: 1)
+10. Nanchang Innovation Institute, Peking University, Nanchang, 330008, China (Paper Count: 1)

@@ -1,0 +1,92 @@
+Keyword Analysis Report: 'continuous fibers'
+============================================================
+
+1. Top 10 Co-occurring Keywords:
+----------------------------------------
+1. 3d printing (Count: 20)
+2. cfrp (Count: 11)
+3. motion planning (Count: 7)
+4. path planning method (Count: 5)
+5. optimization (Count: 5)
+6. topology optimisation (Count: 4)
+7. stiffness (Count: 4)
+8. continuous fiber reinforced polymer (Count: 4)
+9. topology optimization method (Count: 3)
+10. principal stress orientation (Count: 3)
+
+2. Top 5 Highly Cited Papers (All Time):
+----------------------------------------
+1. Title: A novel single-stroke path planning algorithm for 3D printers using continuous carbon fiber reinforced thermoplastics
+   Authors: Yamamoto K.; Luces J.V.S.; Shirasu K.; Hoshikawa Y.; Okabe T.; Hirata Y.
+   Year: 2022
+   Citations: 41
+   DOI: 10.1016/j.addma.2022.102816
+
+2. Title: Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology
+   Authors: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   Year: 2023
+   Citations: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+3. Title: Path design and compression behavior of 3D printed continuous carbon fiber reinforced composite lattice sandwich structures
+   Authors: Zhang P.; Han Z.; Ran X.; Sun S.; Fu H.
+   Year: 2022
+   Citations: 19
+   DOI: 10.1016/j.compstruct.2022.115893
+
+4. Title: A modified equally-spaced method (MEQS) for fibre placement in additive manufacturing of topology-optimised continuous carbon fibre-reinforced polymer composite structures
+   Authors: Wang S.; Zhang H.; Li A.; Ahmad Abdul Qayyum J.; Wang Y.; He Z.; Liu J.; Yang D.
+   Year: 2024
+   Citations: 8
+   DOI: 10.1016/j.compstruct.2024.117998
+
+5. Title: Path Planning and Bending Behaviors of 3D Printed Continuous Carbon Fiber Reinforced Polymer Honeycomb Structures
+   Authors: Wang K.; Wang D.; Liu Y.; Gao H.; Yang C.; Peng Y.
+   Year: 2023
+   Citations: 8
+   DOI: 10.3390/polym15234485
+
+3. Top 5 Highly Cited Papers (Last 3 Years, 2022-2025):
+----------------------------------------
+1. Title: A novel single-stroke path planning algorithm for 3D printers using continuous carbon fiber reinforced thermoplastics
+   Authors: Yamamoto K.; Luces J.V.S.; Shirasu K.; Hoshikawa Y.; Okabe T.; Hirata Y.
+   Year: 2022
+   Citations: 41
+   DOI: 10.1016/j.addma.2022.102816
+
+2. Title: Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology
+   Authors: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   Year: 2023
+   Citations: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+3. Title: Path design and compression behavior of 3D printed continuous carbon fiber reinforced composite lattice sandwich structures
+   Authors: Zhang P.; Han Z.; Ran X.; Sun S.; Fu H.
+   Year: 2022
+   Citations: 19
+   DOI: 10.1016/j.compstruct.2022.115893
+
+4. Title: A modified equally-spaced method (MEQS) for fibre placement in additive manufacturing of topology-optimised continuous carbon fibre-reinforced polymer composite structures
+   Authors: Wang S.; Zhang H.; Li A.; Ahmad Abdul Qayyum J.; Wang Y.; He Z.; Liu J.; Yang D.
+   Year: 2024
+   Citations: 8
+   DOI: 10.1016/j.compstruct.2024.117998
+
+5. Title: Path Planning and Bending Behaviors of 3D Printed Continuous Carbon Fiber Reinforced Polymer Honeycomb Structures
+   Authors: Wang K.; Wang D.; Liu Y.; Gao H.; Yang C.; Peng Y.
+   Year: 2023
+   Citations: 8
+   DOI: 10.3390/polym15234485
+
+4. Top Institutions Publishing Papers on this Keyword:
+----------------------------------------
+1. Unmanned System Research Institute, Northwestern Polytechnical University, Shaanxi, Xi’an, 710072, China (Paper Count: 1)
+2. State IJR Center of Aerospace Design and Additive Manufacturing, Northwestern Polytechnical University, Shaanxi, Xi’an, 710072, China (Paper Count: 1)
+3. MIIT Lab of Metal Additive Manufacturing and Innovative Design, Northwestern Polytechnical University, Shaanxi, Xi’an, 710d072, China (Paper Count: 1)
+4. National Key Lab of Aerospace Power System and Plasma Technology, Air Force Engineering University, Xi’an, 710038, China (Paper Count: 1)
+5. National Key Lab of Aerospace Power System and Plasma Technology, Xi’an Jiaotong University, Xi’an, 710049, China (Paper Count: 1)
+6. State Key Laboratory for Turbulence and Complex Systems, Department of Mechanics and Engineering Science, College of Engineering, Peking University, Beijing, 100871, China (Paper Count: 1)
+7. Defense Innovation Institute, Academy of Military Science, Beijing, 100071, China (Paper Count: 1)
+8. School of Mechanical Engineering, Xi'an Jiaotong University, Xi'an, 710049, China (Paper Count: 1)
+9. CAPT, HEDPS and IFSA Collaborative Innovation Center of MoE, Peking University, Beijing, 100871, China (Paper Count: 1)
+10. School of Engineering, Institute for Materials and Processes, University of Edinburgh, Edinburgh, EH9 3FB, United Kingdom (Paper Count: 1)
