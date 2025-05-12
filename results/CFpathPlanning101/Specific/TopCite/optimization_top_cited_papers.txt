@@ -1,0 +1,55 @@
+关键词 'optimization' 的高引用文章分析
+======================================================================
+
+最近3年 (2023, 2024, 2025) 引用最高的5篇文章:
+1. Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology (2023)
+   作者: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   引用数: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+2. More Stiffness with Less Fiber: End-to-End Fiber Path Optimization for 3D-Printed Composites (2023)
+   作者: Sun X.; Roeder G.; Xue T.; Adams R.P.; Rusinkiewicz S.
+   引用数: 5
+   DOI: 10.1145/3623263.3623356
+
+3. Discrete path planning of carbon fiber patch placement with complex surface (2023)
+   作者: Zhang X.; Chi X.; Ji C.
+   引用数: 3
+   DOI: 10.1177/00405175231169045
+
+4. Analysis and Optimization of Laying Process Parameters of Carbon Fiber Reinforced Thermoplastic Composites for Additive Manufacturing Using Robot (2024)
+   作者: Liu Z.; Li Y.; Hao Y.; Ma Z.; Gu X.
+   引用数: 2
+   DOI: 10.1007/s12541-023-00933-1
+
+5. Concurrent optimization of continuous carbon fiber-reinforced composites with multi-scale components considering the manufacturing constraint (2025)
+   作者: Sun B.; Xing Y.; Lv P.; Zhou J.; Liu C.; Duan H.; Liang X.
+   引用数: 0
+   DOI: 10.1016/j.compscitech.2024.110942
+
+所有年份(除去最近3年)引用最高的5篇文章:
+1. Automated planning for robotic layup of composite prepreg (2021)
+   作者: Malhan R.K.; Shembekar A.V.; Kabir A.M.; Bhatt P.M.; Shah B.; Zanio S.; Nutt S.; Gupta S.K.
+   引用数: 57
+   DOI: 10.1016/j.rcim.2020.102020
+
+2. Towards assembly completion and preparation of experimental campaigns of Wendelstein 7-X in the perspective of a path to a stellarator fusion power plant (2013)
+   作者: Klinger T.; Baylard C.; Beidler C.D.; Boscary J.; Bosch H.S.; Dinklage A.; Hartmann D.; Helander P.; Maßberg H.; Peacock A.; Pedersen T.S.; Rummel T.; Schauer F.; Wegener L.; Wolf R.
+   引用数: 57
+   DOI: 10.1016/j.fusengdes.2013.02.153
+
+3. Topology optimization of 3D-printed continuous fiber-reinforced composites considering manufacturability (2022)
+   作者: Yang Z.; Fu K.; Zhang Z.; Zhang J.; Li Y.
+   引用数: 52
+   DOI: 10.1016/j.compscitech.2022.109727
+
+4. Design and Implementation of 3D Printing System for Continuous CFRP Composites (2018)
+   作者: Han N.; Cheng J.; Yang J.; Liu Y.; Huang W.
+   引用数: 5
+   DOI: 10.1051/matecconf/201821301011
+
+5. 2013 3rd International Conference on Mechanical Science and Engineering, ICMSE 2013 (2013)
+   作者: nan
+   引用数: 0
+   DOI: nan
+

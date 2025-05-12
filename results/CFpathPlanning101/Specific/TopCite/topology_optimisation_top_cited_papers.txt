@@ -1,0 +1,21 @@
+关键词 'topology optimisation' 的高引用文章分析
+======================================================================
+
+最近3年 (2023, 2024, 2025) 引用最高的5篇文章:
+1. Concurrent optimization method of principal stress orientation interpolated continuous fiber angle (PSO-CFAO) and structural topology (2023)
+   作者: Ye H.; Dong Y.; Yang J.; Wang W.; Cheng M.
+   引用数: 21
+   DOI: 10.1016/j.compstruct.2023.117572
+
+2. A modified equally-spaced method (MEQS) for fibre placement in additive manufacturing of topology-optimised continuous carbon fibre-reinforced polymer composite structures (2024)
+   作者: Wang S.; Zhang H.; Li A.; Ahmad Abdul Qayyum J.; Wang Y.; He Z.; Liu J.; Yang D.
+   引用数: 8
+   DOI: 10.1016/j.compstruct.2024.117998
+
+3. Concurrent optimization of continuous carbon fiber-reinforced composites with multi-scale components considering the manufacturing constraint (2025)
+   作者: Sun B.; Xing Y.; Lv P.; Zhou J.; Liu C.; Duan H.; Liang X.
+   引用数: 0
+   DOI: 10.1016/j.compscitech.2024.110942
+
+所有年份(除去最近3年)引用最高的5篇文章:
+没有较早年份的相关文章

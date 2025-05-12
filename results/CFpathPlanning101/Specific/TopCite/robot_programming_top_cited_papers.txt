@@ -1,0 +1,55 @@
+关键词 'robot programming' 的高引用文章分析
+======================================================================
+
+最近3年 (2023, 2024, 2025) 引用最高的5篇文章:
+1. In situ repairing of continuous fiber-reinforced thermoplastic composite via multi-axial additive manufacturing (2024)
+   作者: Hou J.; Lu L.; Yuan S.; Zhai R.; Hu Y.; Wang D.; Nie X.; Li F.; Xiao H.
+   引用数: 4
+   DOI: 10.1007/s00170-024-13381-6
+
+2. Discrete path planning of carbon fiber patch placement with complex surface (2023)
+   作者: Zhang X.; Chi X.; Ji C.
+   引用数: 3
+   DOI: 10.1177/00405175231169045
+
+3. Voxel-based path planning method for continuous carbon fiber 3D printing with robot arm; [基于体素的机械臂连续碳纤维3D打印路径规划] (2023)
+   作者: Zhang F.; Wei P.; Zhao Y.; Tu Y.; Tan Y.
+   引用数: 2
+   DOI: 10.13196/j.cims.2023.05.010
+
+4. Analysis and Optimization of Laying Process Parameters of Carbon Fiber Reinforced Thermoplastic Composites for Additive Manufacturing Using Robot (2024)
+   作者: Liu Z.; Li Y.; Hao Y.; Ma Z.; Gu X.
+   引用数: 2
+   DOI: 10.1007/s12541-023-00933-1
+
+5. Robot-Assisted Manufacturing Technology for 3D Non-Metallic Reinforcement Structures in the Construction Applications (2023)
+   作者: Friese D.; Hahn L.; Le Xuan H.; Mersch J.; Neef T.; Mechtcherine V.; Cherif C.
+   引用数: 2
+   DOI: 10.3390/buildings13112748
+
+所有年份(除去最近3年)引用最高的5篇文章:
+1. Automated planning for robotic layup of composite prepreg (2021)
+   作者: Malhan R.K.; Shembekar A.V.; Kabir A.M.; Bhatt P.M.; Shah B.; Zanio S.; Nutt S.; Gupta S.K.
+   引用数: 57
+   DOI: 10.1016/j.rcim.2020.102020
+
+2. Path planning of cooperating industrial robots using evolutionary algorithms (2021)
+   作者: Larsen L.; Kim J.
+   引用数: 25
+   DOI: 10.1016/j.rcim.2020.102053
+
+3. Uniform coverage of fibres over open-contoured freeform structure based on arc-length parameter (2008)
+   作者: Wang X.; An L.; Zhang L.; Zhou L.
+   引用数: 23
+   DOI: 10.1016/S1000-9361(08)60176-4
+
+4. Robot-based automation system for the flexible preforming of single-layer cut-outs in composite industry (2014)
+   作者: Ehinger C.; Reinhart G.
+   引用数: 16
+   DOI: 10.1007/s11740-014-0546-y
+
+5. Collision-free path planning of industrial cooperating robots for aircraft fuselage production (2015)
+   作者: Larsen L.; Pham V.-L.; Kim J.; Kupke M.
+   引用数: 15
+   DOI: 10.1109/ICRA.2015.7139466
+
