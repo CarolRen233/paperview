@@ -1,54 +1,27 @@
 # 文献可视化
 
-
+该项目可以进行文献可视化，并且提取有价值的信息
 
 ## 步骤
 1. 先从[scopus](https://www.scopus.com/)网站下导出文献列表，建议选择`.csv`格式，并包含关键词`Affiliations`,`Correspondence address`,`Abstract`,`Author keywords`,`Indexed keywords`，将`scopus.csv`保存到此代码的根目录
-2. 运行代码
-
-## 效果
-
-#### 统计文献关键词
-
-实现的功能：
-- 提取占比高于1%的关键词（如果不足500个就按照500个计算），生成.csv文件
-- 生成词云，柱状图，可以是图片格式(top 20)和html格式(top50)
-- 可以指定最近n年或者全部
+2. 分别运行`keywords_extract.ipynb`和`visual_keywords.ipynb`两个文件
 
 
+## 功能展示
+
+### 词云
+
+生成词云，不仅有`.png`格式的，还可以生成`.html`可交互查看的，参考[All year_keywords_wordcloud.html](results/CFpathPlanning101/All/All year_keywords_wordcloud.html)
+
+![词云](results/CFpathPlanning101/All/All year_keywords_wordcloud.png)
 
 
+### 关联关键词
 
+均为`.html`可交互查看的格式
 
+![关联](example.png)
 
-AI命令：
+### 高引论文
 
-```任务类型：数据分析和可视化
-数据集：.csv格式的文献资料，包含（作者	Author full names	作者 ID	文献标题	年份	来源出版物名称	卷	期	论文编号	起始页码	结束页码	页码计数	施引文献	DOI	链接	归属机构	带归属机构的作者	摘要	作者关键字	索引关键字	通讯地址	文献类型	出版阶段	开放获取	来源出版物	EID
-）这些标题
-
-核心需求：写成jupyter的代码，要求是统计关键词，注意这些统计出来的关键词，如果有同义词，要进行同义词的合并！！第一，统计所有数据中占比1%以上的所有关键词（如果占比1%以上的关键词数量少于100，则统计100个关键词，如果总数都不足100，就统计全部）；第二，统计出现频率最高的前30个关键词；第三，统计最近3年出现频率最高的30个关键词。
-技术偏好：pandas，matplotlib，seaborn，wordcloud，scikit-learn，python=3.10，也可以参考https://github.com/pyecharts/pyecharts-gallery图片格式
-
-
-输出形式：第一，统计所有数据中占比1%以上的所有关键词，输出可以是.csv文档，或者html的可以交互的图，或者词云；第二，统计出现频率最高的前30个关键词，输出可以是漂亮的条形图，html的图；第三，统计最近3年出现频率最高的30个关键词；输出可以是漂亮的条形图，html的图
-
-
-
-
-
-数据集：.csv格式的文献资料，包含（作者	Author full names	作者 ID	文献标题	年份	来源出版物名称	卷	期	论文编号	起始页码	结束页码	页码计数	施引文献	DOI	链接	归属机构	带归属机构的作者	摘要	作者关键字	索引关键字	通讯地址	文献类型	出版阶段	开放获取	来源出版物	EID
-）这些标题
-
-核心需求：写成jupyter的代码，最多可以一次性输入10个关键词，要求是-1输入想要探究的关键词，生成与该关键词经常同时出现的频率最高的10个其他相关的关键词
-- 2输出该关键词所有的年份的高引论文5篇和最近3年的高引论文5篇
-- 3输出该关键词发表论文最多的机构
-
-
-技术偏好：pandas，matplotlib，seaborn，wordcloud，scikit-learn，python=3.10，也可以参考https://github.com/pyecharts/pyecharts-gallery图片格式
-
-
-输出形式：-1输出形式可以是txt文本，图片，或者html交互展示，123需求（-1输入想要探究的关键词，生成与该关键词经常同时出现的频率最高的10个其他相关的关键词
-- 2输出该关键词所有的年份的高引论文5篇和最近3年的高引论文5篇
-- 3输出该关键词发表论文最多的机构）可以同时展示，也就是123可以在同一个txt文档里面，或者同一个图片里面，同一个html文件里面
-```
+![高引论文](example2.png)
