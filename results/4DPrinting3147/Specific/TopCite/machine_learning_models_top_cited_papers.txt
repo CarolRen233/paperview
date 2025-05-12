@@ -1,0 +1,55 @@
+关键词 'machine learning models' 的高引用文章分析
+======================================================================
+
+最近3年 (2023, 2024, 2025) 引用最高的5篇文章:
+1. Recent Advances in the Applications of Additive Manufacturing (3D Printing) in Drug Delivery: A Comprehensive Review (2023)
+   作者: Muhindo D.; Elkanayati R.; Srinivasan P.; Repka M.A.; Ashour E.A.
+   引用数: 66
+   DOI: 10.1208/s12249-023-02524-9
+
+2. Machine Learning Customized Novel Material for Energy-Efficient 4D Printing (2023)
+   作者: Tan C.; Li Q.; Yao X.; Chen L.; Su J.; Ng F.L.; Liu Y.; Yang T.; Chew Y.; Liu C.T.; DebRoy T.
+   引用数: 43
+   DOI: 10.1002/advs.202206607
+
+3. Recent Advances in 4D Printing of Advanced Materials and Structures for Functional Applications (2024)
+   作者: Wan X.; Xiao Z.; Tian Y.; Chen M.; Liu F.; Wang D.; Liu Y.; Bartolo P.J.D.S.; Yan C.; Shi Y.; Zhao R.R.; Qi H.J.; Zhou K.
+   引用数: 43
+   DOI: 10.1002/adma.202312263
+
+4. Gelatin Methacryloyl (GelMA)-Based Biomaterial Inks: Process Science for 3D/4D Printing and Current Status (2024)
+   作者: Das S.; Jegadeesan J.T.; Basu B.
+   引用数: 26
+   DOI: 10.1021/acs.biomac.3c01271
+
+5. Perspective: Machine Learning in Design for 3D/4D Printing (2024)
+   作者: Sun X.; Zhou K.; Demoly F.; Zhao R.R.; Qi H.J.
+   引用数: 21
+   DOI: 10.1115/1.4063684
+
+所有年份(除去最近3年)引用最高的5篇文章:
+1. Closed-loop 4D-printed soft robots (2020)
+   作者: Zolfagharian A.; Kaynak A.; Kouzani A.
+   引用数: 177
+   DOI: 10.1016/j.matdes.2019.108411
+
+2. Trends in 3D Printing Processes for Biomedical Field: Opportunities and Challenges (2020)
+   作者: Ghilan A.; Chiriac A.P.; Nita L.E.; Rusu A.G.; Neamtu I.; Chiriac V.M.
+   引用数: 155
+   DOI: 10.1007/s10924-020-01722-x
+
+3. Emerging 3D printing technologies for drug delivery devices: Current status and future perspective (2021)
+   作者: Wang J.; Zhang Y.; Aghda N.H.; Pillai A.R.; Thakkar R.; Nokhodchi A.; Maniruzzaman M.
+   引用数: 149
+   DOI: 10.1016/j.addr.2021.04.019
+
+4. Machine-learning based design of active composite structures for 4D printing (2019)
+   作者: Hamel C.M.; Roach D.J.; Long K.N.; Demoly F.; Dunn M.L.; Qi H.J.
+   引用数: 127
+   DOI: 10.1088/1361-665X/ab1439
+
+5. 3D printing of tissue engineering scaffolds: a focus on vascular regeneration (2021)
+   作者: Wang P.; Sun Y.; Shi X.; Shen H.; Ning H.; Liu H.
+   引用数: 123
+   DOI: 10.1007/s42242-020-00109-0
+
