@@ -13,7 +13,7 @@
 
 生成词云，不仅有`.png`格式的，还可以生成`.html`可交互查看的
 
-![词云](All year_keywords_wordcloud.png)
+![词云](All_year_keywords_wordcloud.png)
 
 
 ### 关联关键词
