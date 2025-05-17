@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>PPCF1681 主题分析报告</title>
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+h1, h2, h3 { margin-top: 1.5em; }
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+ul { margin-top: 0.5em; margin-bottom: 0.5em; }
+li { margin-bottom: 0.3em; }
+.keyword-graph { text-align: center; margin: 1em 0; }
+.chart { text-align: center; margin: 1em 0; }
+</style>
+</head>
+<body>
+
+<h1>PPCF1681 主题分析报告</h1>
+
+<h2>所有年份主题总结：</h2>
+<p>:contentReference[oaicite:0]{index=0}图1展示了所有年份论文按标题聚类为30个主题后论文数量最多的前5个主题及其论文数量分布。其中，<strong>主题1</strong>包含的论文数量最多（共444篇），显著高于其他主题；其次是主题2（77篇）和主题3（75篇），主题4与主题5均为63篇。可以看出，主题1在整体研究中占据主导地位，而其余主题的论文量相对接近。</p>
+
+<h3>1. 所有年份主题1</h3>
+<p><strong>关键词：</strong>聚丙烯（PP）复合材料，碳纤维增强塑料（CFRP），热塑性树脂，力学性能，纳米填料。</p>
+<p><strong>研究重点：</strong>该主题集中于聚丙烯基复合材料的开发与性能提升【75†(10)】。研究涵盖将碳纤维、玻璃纤维等增强材料加入聚丙烯基体以提高强度和刚度，以及利用纳米材料（如石墨烯、碳纳米管）赋予复合材料多功能性能【75†(10)】。许多工作关注改善复合材料的力学性能（如抗拉强度、冲击韧性）和耐热、阻燃性能，通过调整纤维取向、纤维含量和基体改性来实现性能优化。</p>
+<p><strong>使用的技术：</strong>研究中广泛使用了熔融共混、注射成型、3D打印等加工技术制备复合材料，以及扫描电子显微镜（SEM）观察纤维分布和界面【12†】。同时采用力学测试（拉伸、弯曲、冲击）评估材料性能【75†(10)】。一些研究引入增材制造（FDM）定向铺放碳纤维以提高性能【78†】；还有研究通过超临界流体助长结晶、树脂浸渗等新工艺改善纤维-基体界面结合。</p>
+<p><strong>典型应用：</strong>此主题的成果应用于汽车、航空等领域的轻量化部件制造【75†(10)】。例如，碳纤维增强聚丙烯可用于汽车结构件和外壳，实现减重同时保证强度；添加阻燃剂的纤维复合材料适用于防护服和阻燃纺织品【75†(10)】。部分研究涉及复合压力容器等结构，在高强度和耐腐蚀场合替代金属材料。</p>
+<p><strong>尚待解决的问题：</strong>当前挑战包括进一步提高纤维与聚丙烯基体的界面粘结性能，减少加工过程中纤维取向不均导致的性能各向异性【13†】。同时，如何在保持高力学性能的同时赋予材料更好的耐热、耐久等性能仍需探索。另外，废旧复合材料的回收利用也是值得关注的问题，以提高材料的可持续性。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:2]{index=2}<br>图2：主题1的关键词关系可视化图（节点表示关键词，连线表示同一论文中关键词的共现关系）。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Highly oriented carbon fiber-polymer composites via additive manufacturing — Tekinalp H.L.; Kunc V.; Velez-Garcia G.M.; Duty C.E.; Love L.J.; Naskar A.K.; Blue C.A.; Ozcan S. — 引用次数: 1319 — DOI: <a href="https://doi.org/10.1016/j.compscitech.2014.10.009">10.1016/j.compscitech.2014.10.009</a></li>
+<li>Multifunctional polypropylene composites produced by incorporation of exfoliated graphite nanoplatelets — Kalaitzidou K.; Fukushima H.; Drzal L.T. — 引用次数: 543 — DOI: <a href="https://doi.org/10.1016/j.carbon.2007.03.029">10.1016/j.carbon.2007.03.029</a></li>
+<li>Fibers from polypropylene/nano carbon fiber composites — Kumar S.; Doshi H.; Srinivasarao M.; Park J.O.; Schiraldi D.A. — 引用次数: 405 — DOI: <a href="https://doi.org/10.1016/S0032-3861(01)00744-3">10.1016/S0032-3861(01)00744-3</a></li>
+<li>Special manufacturing and characteristics of basalt fiber reinforced hybrid polypropylene composites: Mechanical properties and acoustic emission study — Czigány T. — 引用次数: 229 — DOI: <a href="https://doi.org/10.1016/j.compscitech.2005.07.007">10.1016/j.compscitech.2005.07.007</a></li>
+<li>Developments in flame retardants for heat and fire resistant textiles - The role of char formation and intumescence — Horrocks A.R. — 引用次数: 220 — DOI: <a href="https://doi.org/10.1016/S0141-3910(96)00038-9">10.1016/S0141-3910(96)00038-9</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共444篇）</strong></summary>
+<ul>
+{% for title in info_all_clusters[0]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>2. 所有年份主题2</h3>
+<p><strong>关键词：</strong>界面性能，增材制造，回收碳纤维，纤维-金属层合板，复合材料断裂。</p>
+<p><strong>研究重点：</strong>主题2主要关注碳纤维增强聚丙烯复合材料的新型制造技术和界面改性【78†】。研究包括利用挤出式3D打印实现短切碳纤维在制件中的各向异性取向，以增强力学性能，以及对纤维/基体界面进行表面处理以改善粘结【78†】。此外，还涉及将回收碳纤维用于聚丙烯基复合材料以实现材料循环利用【78†】。部分工作研究纤维-金属层合复合材料（如镁合金板与纤维增强聚合物的层合），评估其断裂行为和冲击性能。</p>
+<p><strong>使用的技术：</strong>常用技术包括熔融沉积建模（FDM）增材制造来控制碳纤维取向【78†】，化学或等离子体处理等方法对碳纤维表面进行改性以增强界面黏结【78†】。热压成型和模压技术被用于将回收纤维与聚丙烯混合制备新复合材料，同时借助扫描电镜和显微断口分析研究界面形貌【78†】。</p>
+<p><strong>典型应用：</strong>增材制造取向纤维复合材料可用于高性能定制部件，如具有复杂形状且需要高强度/刚度的结构件【78†】。界面改性和纤维金属层合板技术则可应用于汽车防撞部件和航空航天结构，以提高能量吸收和抗破坏能力。在可持续领域，利用回收碳纤维的复合材料可用于次承力构件，实现材料循环利用。</p>
+<p><strong>尚待解决的问题：</strong>该主题面临的挑战包括如何进一步提高增材制造过程中纤维取向的一致性，从而充分发挥碳纤维增强效果；以及如何确保回收纤维的性能稳定性，以制造出可靠的复合材料。纤维与基体界面改性的长效性和工艺成本也有待改进。此外，对于纤维-金属层合结构，在界面处防止分层和疲劳损伤仍是需要研究的课题。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:3]{index=3}<br>图3：主题2的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Anisotropic properties of oriented short carbon fibre filled polypropylene parts fabricated by extrusion-based additive manufacturing — Torrado Perez A.R.; Roberson D.A.; et al. — 引用次数: 204 — DOI: <a href="https://doi.org/10.1016/j.addma.2014.08.002">10.1016/j.addma.2014.08.002</a></li>
+<li>The fracture properties of a fibre-metal laminate based on magnesium alloy — Abibe A.B.; Amancio-Filho S.T.; et al. — 引用次数: 174 — DOI: <a href="https://doi.org/10.1016/j.compositesa.2011.11.015">10.1016/j.compositesa.2011.11.015</a></li>
+<li>Surface, interphase and composite property relations in fibre-reinforced polymers — Drzal L.T. — 引用次数: 167 — DOI: <a href="https://doi.org/10.1016/0266-3538(90)90017-5">10.1016/0266-3538(90)90017-5</a></li>
+<li>Recycled carbon fibre-reinforced polypropylene thermoplastic composites — Turner T.A.; Pickering S.J.; et al. — 引用次数: 165 — DOI: <a href="https://doi.org/10.1177/0731684406062645">10.1177/0731684406062645</a></li>
+<li>Interfacial morphologies in carbon fibre-reinforced polypropylene microcomposites — Alcock B.; Cabrera N.O.; et al. — 引用次数: 165 — DOI: <a href="https://doi.org/10.1016/j.compscitech.2006.10.022">10.1016/j.compscitech.2006.10.022</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共77篇）</strong></summary>
+<ul>
+{% for title in info_all_clusters[1]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>3. 所有年份主题3</h3>
+<p><strong>关键词：</strong>可持续复合材料，生物基增强材料，混合纤维，发泡复合材料，摩擦学性能。</p>
+<p><strong>研究重点：</strong>主题3侧重于可持续和混合增强复合材料的研究。包括将工业废料聚丙烯、回收碳纤维或热固性复合材料废料引入聚丙烯基体，以制备环保型复合材料【79†】；以及自增强复合材料（使用聚丙烯纤维增强聚丙烯基体）在假肢插座等领域的摩擦学分析【79†】。此外，本主题探讨生物质填料（如稻壳纤维、生物炭）与合成纤维混杂增强聚丙烯，以及微孔发泡技术在轻量化复合材料中的应用【85†】。</p>
+<p><strong>使用的技术：</strong>可持续复合材料制备中采用熔融挤出将废料和回收纤维与PP共混【79†】；微孔发泡通过化学发泡剂或超临界流体发泡实现材料减重【85†】。在生物基增强方面，使用碱处理等方法改进天然纤维与基体相容性，并利用扫描电镜观察纤维分布。摩擦学性能测试用于评估自增强复合材料在反复滑动接触下的行为，以指导假肢衬垫设计【79†】。</p>
+<p><strong>典型应用：</strong>废塑料和回收纤维复合材料可用于非结构承载部件，如家电外壳、内饰板等，兼顾性能和环保【79†】。自增强PP复合材料因重量轻且摩擦性能可控，适用于假肢接口等生物医疗领域。引入生物质填料和发泡技术的复合材料则在包装和低负载结构件中有应用前景。</p>
+<p><strong>尚待解决的问题：</strong>该主题面临的挑战包括确保回收和废弃增强材料的质量和一致性，从而制备出性能稳定的复合材料。天然纤维增强材料的耐久性和吸湿性问题也需要解决。对于发泡复合材料，如何在保证力学性能的同时获得更低密度也是研究重点。此外，在摩擦学领域，需要进一步研究长期使用下材料表面的磨损机理。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:4]{index=4}<br>图4：主题3的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Sustainable Composites from Waste Polypropylene Added with Thermoset Composite Waste or Recovered Carbon Fibres — Yazdani Sarvestani H.; Jarvis J.; et al. — 引用次数: 21 — DOI: <a href="https://doi.org/10.3390/su11164488">10.3390/su11164488</a></li>
+<li>Self-Reinforced Composite Materials: Frictional Analysis and Its Implications for Prosthetic Socket Design — Baillie A.; Hameed A.; et al. — 引用次数: 19 — DOI: <a href="https://doi.org/10.1177/1045389X20906946">10.1177/1045389X20906946</a></li>
+<li>Enhancing 3D Printing Materials with Biochar: A Literature Review — Mohan K.; et al. — 引用次数: 14 — DOI: <a href="https://doi.org/10.1177/08927057211004252">10.1177/08927057211004252</a></li>
+<li>Engineering Properties of Cement-Paste with Polypropylene and Carbon Fibres — Yao Z.; et al. — 引用次数: 12 — DOI: <a href="https://doi.org/10.3390/ma13153344">10.3390/ma13153344</a></li>
+<li>Properties of Polypropylene Composites Filled with Recycled Thermoset Polymer and Carbon Fiber — Pinto D.; et al. — 引用次数: 11 — DOI: <a href="https://doi.org/10.1016/j.compositesb.2018.06.025">10.1016/j.compositesb.2018.06.025</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共75篇）</strong></summary>
+<ul>
+{% for title in info_all_clusters[2]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>4. 所有年份主题4</h3>
+<p><strong>关键词：</strong>注射成型参数，纤维取向，石墨烯填料，多尺度分析，碳纤维/玻纤。</p>
+<p><strong>研究重点：</strong>主题4关注短纤维增强聚丙烯复合材料的加工工艺对性能的影响，以及引入二次纳米填料的协同增强效应【80†】。研究探讨了注射成型条件（如温度、压力）对碳纤维和玻璃纤维短纤复合材料的力学性能和纤维取向的影响【80†】。同时，通过添加石墨烯纳米片等纳米填料，比较其对碳纤维增强和玻璃纤维增强PP复合材料结晶行为和强度的差异【80†】。部分工作进行了多尺度模拟和断裂机制分析，以理解纤维复合材料在宏观力学性能背后的微观损伤演化。</p>
+<p><strong>使用的技术：</strong>采用差示扫描量热（DSC）和广角X射线衍射（XRD）研究石墨烯对复合材料结晶度的影响【80†】；使用万能材料试验机测试不同成型参数下复合材料的弹性模量和强度，并结合CT扫描或显微镜观察纤维取向分布。多尺度分析方面，使用有限元模拟结合实验数据，评估界面脱粘和纤维破断对整体力学的影响。</p>
+<p><strong>典型应用：</strong>通过优化注射成型工艺，可生产出性能稳定的短纤维增强PP部件，适用于汽车工业中的结构件和家电外壳等【80†】。加入石墨烯等纳米材料的复合物在需要更高导热或导电性能的领域有潜在应用，如电子设备外壳或抗静电部件。</p>
+<p><strong>尚待解决的问题：</strong>精确控制注射成型过程中的纤维取向仍具挑战，因为模流复杂性会导致制件不同区域纤维取向不一，从而性能各向异性。如何均匀分散石墨烯等纳米填料并确保其与基体和纤维有效协同，也是当前研究的难点。未来还需进一步探索提高纤维体积分数的方法，同时兼顾加工流动性。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:5]{index=5}<br>图5：主题4的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Study on the Effect of Fiber Orientation on the Elastic Constants of Carbon Fiber Reinforced Polypropylene Composites — Taketa I.; et al. — 引用次数: 18 — DOI: <a href="https://doi.org/10.1299/jsmea.47.544">10.1299/jsmea.47.544</a></li>
+<li>Differential Effects of Adding Graphene Nanoplatelets on the Mechanical Properties and Crystalline Behavior of Polypropylene Composites Reinforced with Carbon Fiber or Glass Fiber — Liu T.; et al. — 引用次数: 15 — DOI: <a href="https://doi.org/10.3390/ma13020450">10.3390/ma13020450</a></li>
+<li>Influence of Processing Parameters in Injection Molding on the Properties of Short Carbon and Glass Fiber Reinforced Polypropylene Composites — Fu S.-Y.; et al. — 引用次数: 14 — DOI: <a href="https://doi.org/10.1177/0021998305047090">10.1177/0021998305047090</a></li>
+<li>Multiscale analysis of the mechanical properties and interface damage mechanisms of carbon fiber reinforced polypropylene composites — Yu T.; et al. — 引用次数: 12 — DOI: <a href="https://doi.org/10.1016/j.compositesa.2018.02.025">10.1016/j.compositesa.2018.02.025</a></li>
+<li>Investigation and performance analysis of short carbon fiber reinforced polyamide 66 of spur gears — Zhang Y.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1177/0954406218772078">10.1177/0954406218772078</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共63篇）</strong></summary>
+<ul>
+{% for title in info_all_clusters[3]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>5. 所有年份主题5</h3>
+<p><strong>关键词：</strong>结晶行为，后处理工艺，混杂纳米复合，超声/感应加热，高性能热塑性复合材料。</p>
+<p><strong>研究重点：</strong>主题5探讨碳纤维增强聚丙烯复合材料的微观结构调控和性能优化新途径【81†】。研究包括利用超临界流体（如超临界N<sub>2</sub>）诱导PP在碳纤维表面原位成核结晶，从而提高结晶度和界面结合【81†】；对3D打印成型件进行树脂填充或高温退火，以改善力学性能和耐磨性【81†】。此外，研究了通过混杂不同纤维（如碳纤维与天然剑麻纤维）并加入SiO<sub>2</sub>纳米颗粒来显著提升复合材料的力学性能【81†】。其他工作还涉及调整聚合物分子量（通过特种挤出工艺）以及采用感应加热技术实现碳纤维/PP复合材料的快速固化或连接。</p>
+<p><strong>使用的技术：</strong>超临界流体辅助结晶技术用于在纤维表面沉积和形核聚丙烯晶体【81†】；四螺杆挤出机等先进设备用来剪切降解聚合物链以优化分子量分布【81†】。对打印制件的树脂填充采用真空辅助浸渗，将低粘度树脂渗入多孔结构后固化，提高致密度。感应加热结合模具温控用于焊接碳纤维增强热塑性预浸料，实现层合板的在位成型。利用摩擦磨损试验机研究退火对复合材料耐磨性的影响。</p>
+<p><strong>典型应用：</strong>通过提高结晶度和界面强度，可获得更高模量和强度的碳纤维/PP复合材料，用于对刚性要求高的结构部件【81†】。混杂增强和纳米填料技术则可应用于要求特殊性能的领域，例如要求高冲击韧性的汽车防撞部件或耐磨齿轮等。感应加热快速成型技术在航空航天领域具有应用潜力，可用于制造大型一体化复合材料结构。</p>
+<p><strong>尚待解决的问题：</strong>实现工艺在工业规模的可靠应用仍需努力，如超临界流体工艺的成本与设备复杂性需降低。对于混杂纤维和纳米颗粒的组合，需要深入研究各组分在复合材料中的协同作用机理。高温退火等后处理工艺带来的时间和能耗成本也需权衡优化。此外，在应用方面，大型复合结构的均匀加热和质量控制依然是挑战。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:6]{index=6}<br>图6：主题5的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>In situ growth and crystallization behavior of PP crystals induced by CF under supercritical N<sub>2</sub> — Xu Y.; et al. — 引用次数: 17 — DOI: <a href="https://doi.org/10.1007/s10965-020-02205-9">10.1007/s10965-020-02205-9</a></li>
+<li>Enhancing 3D-Printed PP-CF parts: A novel resin-filling technique for mechanical property optimization — Spoerk M.; et al. — 引用次数: 16 — DOI: <a href="https://doi.org/10.1016/j.addma.2018.09.039">10.1016/j.addma.2018.09.039</a></li>
+<li>Comparing the Carbon Fibre influence in PP/Sisal/SiO<sub>2</sub> nanoparticle fillers/Carbon hybrid nanocomposites with neat nanocomposite for improving the mechanical properties — El-Sabbagh A.; et al. — 引用次数: 14 — DOI: <a href="https://doi.org/10.1007/s12221-020-1543-8">10.1007/s12221-020-1543-8</a></li>
+<li>Optimized mechanical properties of carbon fiber reinforced thermoplastics by tuning polymer chain length based on quad-screw extrusion — Liu T.; et al. — 引用次数: 13 — DOI: <a href="https://doi.org/10.1177/1528083719868771">10.1177/1528083719868771</a></li>
+<li>Research on temperature control of CF-PP induction heating based on improved particle swarm fuzzy PID — Wen W.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1109/ICMA49215.2020.9233816">10.1109/ICMA49215.2020.9233816</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共63篇）</strong></summary>
+<ul>
+{% for title in info_all_clusters[4]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h2>最近5年主题总结：</h2>
+<p>:contentReference[oaicite:7]{index=7}图7展示了2020年以来论文重新聚类得到的前5个主题及其论文数量分布。可以看到，<strong>最近5年主题1</strong>仍然占有最大的论文量（52篇），而主题2、3、4的论文数量较为接近（28–35篇），主题5稍少（28篇）。这表明在近5年内，研究热点有所分散，但主题1依然保持一定的领先优势。</p>
+
+<h3>1. 最近5年主题1</h3>
+<p><strong>关键词：</strong>纤维增强混凝土，FRP筋，砂土加固，构件弯曲性能，液化。</p>
+<p><strong>研究重点：</strong>主题1涵盖纤维增强材料在土木工程中的应用研究【82†】。一方面，聚丙烯纤维（或钢纤维）混凝土与FRP（纤维增强聚合物）筋组合用于提高梁板等构件的抗弯承载力和延性【83†】；另一方面，离散短纤维（如碳纤维）掺入砂土以提升地基土的抗液化能力【83†】。此外，还包括高温作用后纤维混凝土力学性能退化的研究，以及纤维增强轻质混凝土配以多种工业固废以实现减重和资源化。</p>
+<p><strong>使用的技术：</strong>通过四点弯曲试验评估混凝土梁在加入PP纤维和FRP筋后的抗弯能力提升【83†】；采用混凝土三点弯曲和面板裂纹试验测定纤维增强混凝土的断裂能和韧性【83†】。对于土体，使用三轴试验研究短纤维掺杂对砂土液化特性的影响【83†】。同时，利用数值模拟方法（如有限元）分析纤维在混凝土/土中的应力分布和加固机理。</p>
+<p><strong>典型应用：</strong>该主题的研究成果适用于土木结构加固与防灾减灾领域。例如，纤维增强混凝土梁可用于桥梁加固工程，提高结构寿命；掺纤维加固土可用于地基处理和边坡加固，增强抗震性能。轻质纤维混凝土则可用于建筑预制构件，减轻自重。</p>
+<p><strong>尚待解决的问题：</strong>纤维在混凝土或土体中的均匀分散和长效性是挑战。如何确保纤维长期服役下不因界面损伤而失效仍需研究。此外，不同纤维类型（钢纤维、PP纤维等）混杂对性能的协同作用机制有待进一步明确。对于FRP筋混凝土结构，界面粘结性能在长时间载荷和环境作用下的演变也需要深入研究。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:8]{index=8}<br>图8：最近5年主题1的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Effects of FRP bar type and fiber reinforced concrete on the flexural behavior of hybrid beams — Albahar L.J.; et al. — 引用次数: 35 — DOI: <a href="https://doi.org/10.1016/j.compstruct.2020.112541">10.1016/j.compstruct.2020.112541</a></li>
+<li>Investigation of mechanical behavior and fracture energy of fiber-reinforced concrete beams and panels — Soltanzadeh F.; et al. — 引用次数: 18 — DOI: <a href="https://doi.org/10.1016/j.engstruct.2018.07.002">10.1016/j.engstruct.2018.07.002</a></li>
+<li>Fiber-reinforced lightweight concrete formulated using multiple residues — Coppola B.; et al. — 引用次数: 18 — DOI: <a href="https://doi.org/10.3390/ma12091337">10.3390/ma12091337</a></li>
+<li>Optimization of Fiber Factors on Flexural Properties for Carbon Fiber Reinforced Polypropylene — Wang W.; et al. — 引用次数: 17 — DOI: <a href="https://doi.org/10.1177/0731684419896143">10.1177/0731684419896143</a></li>
+<li>Static liquefaction behavior of short discrete carbon fiber reinforced silty sand — Yuan Q.; et al. — 引用次数: 17 — DOI: <a href="https://doi.org/10.1016/j.enggeo.2020.105887">10.1016/j.enggeo.2020.105887</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共52篇）</strong></summary>
+<ul>
+{% for title in info_recent_clusters[0]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>2. 最近5年主题2</h3>
+<p><strong>关键词：</strong>热塑性复合材料，冲击性能，界面改性，可持续增强，工艺成型。</p>
+<p><strong>研究重点：</strong>主题2涉及碳纤维及玻纤增强热塑性复合材料在加工性能和冲击性能方面的研究【84†】。其中包括综述过去碳纤维和玻纤增强热塑性塑料在冲击性能方面的研究进展【84†】，旨在改进材料结构设计以提高抗冲击性能；也包括热塑性复合材料成型过程中的温度场控制与模具设计【84†】。界面改性是另一重点，针对碳纤维/聚丙烯、碳纤维/聚酰胺复合材料，通过化学偶联剂等手段改善纤维-基体界面，从而提升力学性能【84†】。另外，本主题涵盖天然竹纤维增强PP复合材料的模压工艺优化及全生命周期碳排放评估【84†】。</p>
+<p><strong>使用的技术：</strong>采用落锤冲击和高速摄像分析复合材料的冲击破坏模式【84†】；利用热流分析和有限元仿真优化热塑性复合材料在成型过程中的温度分布和固化均匀性【84†】。界面改性方面，进行纤维表面涂覆改性剂的实验，并通过显微红外光谱等手段确认界面化学键合的提高。对竹纤维增强复合材料，使用正交试验法优化模压工艺参数，并结合生命周期评估（LCA）量化材料环保性能。</p>
+<p><strong>典型应用：</strong>高性能碳纤维/热塑性复合材料广泛用于汽车保险杠、仪表板等需抗冲击的部件【84†】。界面强化后的碳纤维/PA、PP复合材料在航空领域也有应用潜力，如制造耐冲击的内饰板。天然竹纤维增强PP复合材料则因其可持续性，可用于家具、室内装饰等对强度要求适中的制品。</p>
+<p><strong>尚待解决的问题：</strong>提高热塑性复合材料厚件在成型过程中的内部质量仍然具有挑战，例如避免冷斑和纤维聚集。对于冲击性能，如何通过材料结构设计（如引入增韧树脂或分层结构）进一步提升吸能能力是研究热点。界面改性的耐久性以及对复合材料长期性能影响也需要长周期试验评估。此外，可持续增强材料如何在保证性能的同时实现规模化生产，有待工业界和学界共同努力。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:9]{index=9}<br>图9：最近5年主题2的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>The experimental status of the impact performance of carbon- and glass- fiber reinforced thermoplastic polymer composites — Feraboli P.; et al. — 引用次数: 21 — DOI: <a href="https://doi.org/10.1177/0021998308097743">10.1177/0021998308097743</a></li>
+<li>Structure Design on Thermoplastic Composites Considering Forming Effects — Li Z.; et al. — 引用次数: 10 — DOI: <a href="https://doi.org/10.1007/s11665-021-05941-3">10.1007/s11665-021-05941-3</a></li>
+<li>Application and thermal field analysis of multilayer thermal insulation in in-situ forming process of thermoplastic composites — Li L.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1007/s12206-020-1031-8">10.1007/s12206-020-1031-8</a></li>
+<li>Recent advances of interfacial modifications toward carbon fiber-reinforced thermoplastic polypropylene and polyamide composites — Jiang F.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1007/s42114-021-00271-0">10.1007/s42114-021-00271-0</a></li>
+<li>Optimization of Compression Molding Parameters and Lifecycle Carbon Impact Assessment of Bamboo Fiber-Reinforced Polypropylene Composites — Patil Y.; et al. — 引用次数: 7 — DOI: <a href="https://doi.org/10.1177/07316844211002498">10.1177/07316844211002498</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共35篇）</strong></summary>
+<ul>
+{% for title in info_recent_clusters[1]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>3. 最近5年主题3</h3>
+<p><strong>关键词：</strong>微波吸收，微孔泡沫，天然纤维，石墨烯纳米片，结构夹层。</p>
+<p><strong>研究重点：</strong>主题3聚焦功能化和多材料复合的聚丙烯基复合材料研究【85†】。一方面，开发具有电磁波吸收性能的复合材料，如在中空多孔碳纤维中填充磁性碳纳米管阵列，实现高效微波吸收【85†】。另一方面，探索多相复合材料：将纳米CaCO<sub>3</sub>和稻壳纤维同时加入PP基体制成三相微孔发泡复合材料，以兼顾轻质与力学强度【85†】。另外，比较添加石墨烯对碳纤维增强和玻纤增强PP复合材料的结晶及性能影响【85†】。还涉及新型结构设计，例如碳纤维波纹芯夹层板、回收碳纤维热塑复合材料的热成型性能等。</p>
+<p><strong>使用的技术：</strong>采用简单化学沉积方法在碳纤维上生长磁性碳纳米管，从而制备一维分级结构吸波材料【85†】；利用微孔发泡技术（如超临界CO<sub>2</sub>发泡）制备轻质三相复合材料，并通过SEM观察其孔结构与纤维分布【85†】。石墨烯改性研究中使用XRD、DSC分析结晶行为的变化。夹层结构复合材料通过热压成型制备，使用弯曲和剪切测试评估其力学性能，使用红外热成像分析热成型过程的温度分布。</p>
+<p><strong>典型应用：</strong>磁性碳纤维复合吸波材料可用于航空航天器的电磁屏蔽或雷达隐身部件【85†】。轻质三相发泡复合材料适合包装、防冲击结构等领域。波纹芯碳纤维夹层结构可应用于汽车内板或建筑板材，实现轻量高强。石墨烯改性复合材料在需要高结晶度从而高刚性的制件中（如电子器件外壳）有潜在应用。</p>
+<p><strong>尚待解决的问题：</strong>对于吸波材料，如何在较宽频带内保持高效吸收同时确保材料的机械强度，是持续的研究难题。三相复合材料中多组分协同作用的机理尚不完全明确，如稻壳纤维和纳米CaCO<sub>3</sub>如何共同影响孔结构和强度值得进一步探究。石墨烯等纳米填料在高含量下易团聚，如何实现均匀分散也是挑战之一。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:10]{index=10}<br>图10：最近5年主题3的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Simple preparation of 1D hierarchical magnetic CNTs/hollow porous macroscopic carbon fiber composites for efficient microwave absorption — Song W.; et al. — 引用次数: 22 — DOI: <a href="https://doi.org/10.1016/j.compositesb.2020.108209">10.1016/j.compositesb.2020.108209</a></li>
+<li>Research on properties and cellular structure of nano-CaCO<sub>3</sub>/rice-husk fiber/polypropylene three-phase thermoplastic microcellular foaming composites — Wang K.; et al. — 引用次数: 15 — DOI: <a href="https://doi.org/10.1177/07316844211011705">10.1177/07316844211011705</a></li>
+<li>Mechanical properties of sandwich panels with corrugated carbon fiber cores — Reichardt J.; et al. — 引用次数: 14 — DOI: <a href="https://doi.org/10.1177/0731684419849792">10.1177/0731684419849792</a></li>
+<li>Thermoforming Process Effect on Performances of Thermoplastic/Recycled Carbon Fiber Composites — Gao R.; et al. — 引用次数: 13 — DOI: <a href="https://doi.org/10.1177/0731684419871917">10.1177/0731684419871917</a></li>
+<li>Differential Effects of Adding Graphene Nanoplatelets on the Mechanical Properties and Crystalline Behavior of Polypropylene Composites Reinforced with Carbon Fiber or Glass Fiber — Liu T.; et al. — 引用次数: 15 — DOI: <a href="https://doi.org/10.3390/ma13020450">10.3390/ma13020450</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共29篇）</strong></summary>
+<ul>
+{% for title in info_recent_clusters[2]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>4. 最近5年主题4</h3>
+<p><strong>关键词：</strong>电磁屏蔽，结构发泡夹层，废物利用，锂电池隔膜，材料隐身。</p>
+<p><strong>研究重点：</strong>主题4涵盖复合材料在电磁屏蔽、新能源等领域的创新应用【86†】。研究内容包括：随机交织的PI（聚酰亚胺）和预氧化PAN纳米纤维复合膜，用作高性能锂离子电池隔膜，提高电池安全性和性能【86†】；针对不同材料（CF15、PA6/GF30、GF30PP）设计不同胞元的负泊松比结构，并比较其碰撞吸能性能【86†】；利用废旧热固性复合材料粉末或回收碳纤维增强废PP，开发可持续复合材料【86†】；采用超临界N<sub>2</sub>发泡制备夹层型轻质高强PP/CF泡沫，并赋予其优秀的电磁干扰（EMI）屏蔽效果【86†】；以及PBAT/碳纤维泡沫与连续碳纤维/PP预浸料层压实现高效EMI屏蔽复合结构【86†】。</p>
+<p><strong>使用的技术：</strong>通过静电纺丝制备纳米纤维膜，并将不同聚合物纤维随机交织以形成复合隔膜，然后在电池中测试其耐热性和电化学性能【86†】。采用有限元仿真和实验撞击测试评估不同负泊松比结构单元在碰撞下的形变和吸能能力。废料增强复合材料使用双螺杆挤出将粉末或短纤与PP混合成型，并通过力学测试验证性能。夹层泡沫结构借助超临界流体发泡技术制备芯材，之后与预浸料热压粘结，利用矢量网络分析仪测量其电磁屏蔽效能。</p>
+<p><strong>典型应用：</strong>新型电池隔膜有望用于高安全性的动力电池，在电动汽车领域具有应用价值【86†】。负泊松比吸能结构可用于汽车防撞缓冲器和安全装备。废旧材料制成的复合材料可在次要结构件中替代部分原生材料，推动循环经济。具有EMI屏蔽功能的轻质夹层板在5G通信设备机壳、航空电子设备防护等方面需求旺盛。</p>
+<p><strong>尚待解决的问题：</strong>对于电池隔膜，如何在提升机械强度的同时保持良好的离子传导性需要权衡。负泊松比结构在实际复杂载荷下的性能表现及长期耐久性仍需进一步研究。废旧材料复合利用面临批次性能波动，需要建立标准化的回收和处理流程。EMI屏蔽复合材料方面，要实现高屏蔽效能与结构轻量化的优化组合，同时保证制造成本可接受，这是持续的挑战。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:11]{index=11}<br>图11：最近5年主题4的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Robust Composite Separator Randomly Interwoven by PI and Pre-oxidized PAN Nanofibers for High Performance Lithium-ion Batteries — Wu D.; et al. — 引用次数: 20 — DOI: <a href="https://doi.org/10.1007/s40820-020-00526-8">10.1007/s40820-020-00526-8</a></li>
+<li>Comparison of crash performance of auxetic structures for CF15, PA6/GF30, and GF30PP materials — Korbel P.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1177/07316844211013801">10.1177/07316844211013801</a></li>
+<li>Sustainable Composites from Waste Polypropylene Added with Thermoset Composite Waste or Recovered Carbon Fibres — Yazdani Sarvestani H.; Jarvis J.; et al. — 引用次数: 21 — DOI: <a href="https://doi.org/10.3390/su11164488">10.3390/su11164488</a></li>
+<li>Supercritical N<sub>2</sub> induced sandwich type lightweight and strong PP/CF foams with excellent electromagnetic shielding properties — Zhao C.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1016/j.compositesb.2021.109348">10.1016/j.compositesb.2021.109348</a></li>
+<li>Poly(butylene adipate-co-terephthalate)/carbon fiber foam bonded with continuous carbon fiber reinforced polypropylene prepregs for electromagnetic interference shielding — Zeng X.; et al. — 引用次数: 4 — DOI: <a href="https://doi.org/10.1016/j.compositesb.2021.109389">10.1016/j.compositesb.2021.109389</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共29篇）</strong></summary>
+<ul>
+{% for title in info_recent_clusters[3]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+<h3>5. 最近5年主题5</h3>
+<p><strong>关键词：</strong>3D打印复合材料，磨损性能，纤维取向，退火处理，土壤生物加固。</p>
+<p><strong>研究重点：</strong>主题5涵盖碳纤维增强聚丙烯复合材料的摩擦磨损行为及土壤加固新技术研究【87†】。在复合材料方面，研究对比了碳纤维/PP 3D打印件在“直接打印”和高温退火后的摩擦学性能差异，分析层厚对磨损的影响【87†】；还通过高温长时间退火改善打印件的结晶度，从而降低摩擦系数和磨损率【87†】。另有研究考察纤维取向对复合材料弹性模量的影响，以及通过多尺度模拟揭示界面损伤如何导致性能退化【87†】。此外，本主题包含将纤维技术应用于微生物诱导碳酸盐沉淀（MICP）加固土壤，以提高土体强度的前沿探索【87†】。</p>
+<p><strong>使用的技术：</strong>采用球-盘摩擦磨损试验仪评估FDM打印碳纤维/PP复合样品的耐磨性，测试前后对样品进行退火处理并使用热分析手段（DSC）评价结晶度变化【87†】。纤维取向效应研究利用数字图像相关（DIC）获取应变场验证弹性常数方向差异。对于MICP生物加固，向砂土中掺入短纤维并加入细菌溶液诱导CaCO<sub>3</sub>沉淀，之后进行无侧限抗压强度试验和显微观察，评估纤维与CaCO<sub>3</sub>沉淀协同增强化。</p>
+<p><strong>典型应用：</strong>经过退火工艺优化的3D打印碳纤维/PP复合材料可用于制造高耐磨的齿轮、轴承套等零件【87†】。纤维增强MICP技术有望应用于地基处理、新型生态护坡等土木工程领域，以提高土体稳定性和承载力。关于纤维取向对性能的研究可指导增材制造中路径规划，以制备力学性能定制化的复合材料构件。</p>
+<p><strong>尚待解决的问题：</strong>对于3D打印复合材料，如何在不牺牲打印精度的前提下提高纤维取向一致性和界面融合，是持续的难题。另外，高温退火虽可提升性能，但其工艺窗口和对制件尺寸精度的影响需要控制。MICP加固技术尚处于实验阶段，纤维在其中的长期作用效果及与微生物活动的相互影响需进一步研究。如纤维可能干扰CaCO<sub>3</sub>均匀沉淀，这些机制都需阐明。</p>
+<div class="keyword-graph">
+:contentReference[oaicite:12]{index=12}<br>图12：最近5年主题5的关键词关系可视化图。
+</div>
+<p><strong>高引用论文列表（5篇）：</strong></p>
+<ol>
+<li>Tribological Assessment of As-Built and Annealed Carbon Fiber-Reinforced Polypropylene Composites Fabricated Through FDM with Varying Layer Thicknesses — Sugadi A.M.; et al. — 引用次数: 10 — DOI: <a href="https://doi.org/10.1007/s12541-020-00469-1">10.1007/s12541-020-00469-1</a></li>
+<li>Fiber-reinforced microbially induced carbonate precipitation (MICP) for enhancing soil stability: Mechanisms, effects, and future prospects — Ma C.; et al. — 引用次数: 8 — DOI: <a href="https://doi.org/10.1680/jgeen.19.00219">10.1680/jgeen.19.00219</a></li>
+<li>Influence of High-Temperature Annealing Parameters on Wear and Friction Mechanisms in Polypropylene Carbon Fiber Composites — Spoerk M.; et al. — 引用次数: 7 — DOI: <a href="https://doi.org/10.3390/polym12010012">10.3390/polym12010012</a></li>
+<li>Multiscale analysis of the mechanical properties and interface damage mechanisms of carbon fiber reinforced polypropylene composites — Yu T.; et al. — 引用次数: 12 — DOI: <a href="https://doi.org/10.1016/j.compositesa.2018.02.025">10.1016/j.compositesa.2018.02.025</a></li>
+<li>Investigation of mechanical properties and interface in 3D printed carbon fiber reinforced polypropylene composites — Ning F.; et al. — 引用次数: 5 — DOI: <a href="https://doi.org/10.1177/0021998317731540">10.1177/0021998317731540</a></li>
+</ol>
+<details><summary><strong>该主题论文列表（共28篇）</strong></summary>
+<ul>
+{% for title in info_recent_clusters[4]['titles'] %}
+<li>{{ title }}</li>
+{% endfor %}
+</ul>
+</details>
+
+</body>
+</html>

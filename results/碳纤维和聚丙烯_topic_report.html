@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>碳纤维和聚丙烯主题分析报告</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <style>body{font-family:sans-serif;max-width:1200px;margin:auto;}h2{margin-top:2em;} .apa{margin-bottom:8px;}</style>
+</head>
+<body>
+<h1>碳纤维和聚丙烯主题分析报告</h1>
+
+<h2>所有年份主题总结：</h2>
+
+<h3>所有年份主题1：碳纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>171 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, fiber reinforced plastics, tensile strength of filled polymer, mechanical properties of woods, injection molding machines, thermoplastic, complex, fiber, carbon fiber-reinforced thermoplastic composites</div>
+<div><b>关键词中文：</b>聚丙烯, 碳纤维增强塑料, 纤维增强塑料, 填充聚合物拉伸强度, 木材力学性能, 注塑机, 热塑性塑料, 复合材料, 纤维, 碳纤维增强热塑性复合材料</div>
+<div><b>研究重点：</b>1. 碳纤维增强聚丙烯复合材料的力学性能优化</div>
+<div><b>使用的技术：</b>1. FDM 3D打印技术</div>
+<div><b>典型应用：</b>1. 汽车零部件（如保险杠、电池外壳）</div>
+<div><b>尚待解决的问题：</b>1. 高纤维含量复合材料的加工性能优化</div>
+<div id="all_kw_graph_0" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('all_kw_graph_0'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 29, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 21, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 50.0, 'value': 16, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 40.0, 'value': 11, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 38.0, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'injection molding machines', 'name': 'injection molding machines', 'symbolSize': 36.0, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'thermoplastic', 'name': 'thermoplastic', 'symbolSize': 36.0, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'complex', 'name': 'complex', 'symbolSize': 32.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 32.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 30.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 21}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 16}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 11}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 10}, {'source': 'polypropylene', 'target': 'injection molding machines', 'value': 9}, {'source': 'polypropylene', 'target': 'thermoplastic', 'value': 9}, {'source': 'polypropylene', 'target': 'complex', 'value': 7}, {'source': 'polypropylene', 'target': 'fiber', 'value': 7}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 6}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 13}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 9}, {'source': 'cfrp', 'target': 'injection molding machines', 'value': 6}, {'source': 'cfrp', 'target': 'thermoplastic', 'value': 8}, {'source': 'cfrp', 'target': 'complex', 'value': 3}, {'source': 'cfrp', 'target': 'fiber', 'value': 5}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 5}, {'source': 'fiber reinforced plastics', 'target': 'tensile strength of filled polymer', 'value': 7}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 9}, {'source': 'fiber reinforced plastics', 'target': 'injection molding machines', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'thermoplastic', 'value': 8}, {'source': 'fiber reinforced plastics', 'target': 'complex', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'fiber', 'value': 6}, {'source': 'fiber reinforced plastics', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'injection molding machines', 'value': 5}, {'source': 'tensile strength of filled polymer', 'target': 'thermoplastic', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'complex', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'fiber', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 2}, {'source': 'mechanical properties of woods', 'target': 'injection molding machines', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'thermoplastic', 'value': 7}, {'source': 'mechanical properties of woods', 'target': 'complex', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'fiber', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 2}, {'source': 'injection molding machines', 'target': 'thermoplastic', 'value': 3}, {'source': 'injection molding machines', 'target': 'complex', 'value': 2}, {'source': 'injection molding machines', 'target': 'fiber', 'value': 2}, {'source': 'injection molding machines', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 1}, {'source': 'thermoplastic', 'target': 'complex', 'value': 3}, {'source': 'thermoplastic', 'target': 'fiber', 'value': 5}, {'source': 'thermoplastic', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 2}, {'source': 'complex', 'target': 'fiber', 'value': 2}, {'source': 'complex', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'fiber', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Fu S.-Y.; Lauke B.; Mäder E.; Yue C.-Y.; Hu X. (2000). Tensile properties of short-glass-fiber- and short-carbon-fiber-reinforced polypropylene composites. <i>Composites Part A: Applied Science and Manufacturing</i>, 31(10), 1117-1125. <a href='https://doi.org/10.1016/S1359-835X(00)00068-3' target='_blank'>https://doi.org/10.1016/S1359-835X(00)00068-3</a> <b>[引用量: 802]</b></li>
+
+<li class="apa">Malkapuram R.; Kumar V.; Singh Negi Y. (2009). Recent development in natural fiber reinforced polypropylene composites. <i>Journal of Reinforced Plastics and Composites</i>, 28(10), 1169-1189. <a href='https://doi.org/10.1177/0731684407087759' target='_blank'>https://doi.org/10.1177/0731684407087759</a> <b>[引用量: 743]</b></li>
+
+<li class="apa">Kumar S.; Doshi H.; Srinivasarao M.; Park J.O.; Schiraldi D.A. (2002). Fibers from polypropylene/nano carbon fiber composites. <i>Polymer</i>, 43(5), 1701-1703. <a href='https://doi.org/10.1016/S0032-3861(01)00744-3' target='_blank'>https://doi.org/10.1016/S0032-3861(01)00744-3</a> <b>[引用量: 405]</b></li>
+
+<li class="apa">Rezaei F.; Yunus R.; Ibrahim N.A. (2009). Effect of fiber length on thermomechanical properties of short carbon fiber reinforced polypropylene composites. <i>Materials and Design</i>, 30(2), 260-263. <a href='https://doi.org/10.1016/j.matdes.2008.05.005' target='_blank'>https://doi.org/10.1016/j.matdes.2008.05.005</a> <b>[引用量: 357]</b></li>
+
+<li class="apa">Wang C.; Liu C.-R. (1999). Transcrystallization of polypropylene composites: nucleating ability of fibres. <i>Polymer</i>, 40(2), 289-298. <a href='https://doi.org/10.1016/S0032-3861(98)00240-7' target='_blank'>https://doi.org/10.1016/S0032-3861(98)00240-7</a> <b>[引用量: 181]</b></li>
+
+</ul></div>
+
+<h3>所有年份主题2：碳纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>111 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, fiber, mechanical properties of woods, fiber reinforced plastics, tensile strength of filled polymer, carbon fiber-reinforced thermoplastic composites, polypropylene composites, microstructure and mechanical properties, fracture toughness values</div>
+<div><b>关键词中文：</b>聚丙烯,碳纤维增强塑料,纤维,木材力学性能,纤维增强塑料,填充聚合物拉伸强度,碳纤维增强热塑性复合材料,聚丙烯复合材料,微观结构与力学性能,断裂韧性值</div>
+<div><b>研究重点：</b>碳纤维增强聚丙烯复合材料的机械性能、界面损伤机制、界面粘附强度优化</div>
+<div><b>使用的技术：</b>实验测试、数值模拟、理论分析、有限元分析、Mori-Tanaka模型</div>
+<div><b>典型应用：</b>汽车部件、航空航天、假肢、新能源车辆</div>
+<div><b>尚待解决的问题：</b>界面粘附强度的进一步优化、复合材料的环境影响评估、大规模生产的工艺优化</div>
+<div id="all_kw_graph_1" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('all_kw_graph_1'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 28, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 23, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 40.0, 'value': 11, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 40.0, 'value': 11, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 36.666666666666664, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 31.666666666666668, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 31.666666666666668, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polypropylene composites', 'name': 'polypropylene composites', 'symbolSize': 31.666666666666668, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'microstructure and mechanical properties', 'name': 'microstructure and mechanical properties', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fracture toughness values', 'name': 'fracture toughness values', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 23}, {'source': 'polypropylene', 'target': 'fiber', 'value': 11}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 11}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 9}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 6}, {'source': 'polypropylene', 'target': 'polypropylene composites', 'value': 6}, {'source': 'polypropylene', 'target': 'microstructure and mechanical properties', 'value': 5}, {'source': 'polypropylene', 'target': 'fracture toughness values', 'value': 5}, {'source': 'cfrp', 'target': 'fiber', 'value': 11}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 10}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 8}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'cfrp', 'target': 'polypropylene composites', 'value': 6}, {'source': 'cfrp', 'target': 'microstructure and mechanical properties', 'value': 5}, {'source': 'cfrp', 'target': 'fracture toughness values', 'value': 4}, {'source': 'fiber', 'target': 'mechanical properties of woods', 'value': 7}, {'source': 'fiber', 'target': 'fiber reinforced plastics', 'value': 3}, {'source': 'fiber', 'target': 'tensile strength of filled polymer', 'value': 4}, {'source': 'fiber', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'fiber', 'target': 'polypropylene composites', 'value': 4}, {'source': 'fiber', 'target': 'microstructure and mechanical properties', 'value': 4}, {'source': 'mechanical properties of woods', 'target': 'fiber reinforced plastics', 'value': 4}, {'source': 'mechanical properties of woods', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'polypropylene composites', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'microstructure and mechanical properties', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'fracture toughness values', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'polypropylene composites', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'microstructure and mechanical properties', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'fracture toughness values', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 1}, {'source': 'tensile strength of filled polymer', 'target': 'polypropylene composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'microstructure and mechanical properties', 'value': 1}, {'source': 'tensile strength of filled polymer', 'target': 'fracture toughness values', 'value': 2}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'polypropylene composites', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'microstructure and mechanical properties', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'fracture toughness values', 'value': 1}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Tekinalp H.L.; Kunc V.; Velez-Garcia G.M.; Duty C.E.; Love L.J.; Naskar A.K.; Blue C.A.; Ozcan S. (2014). Highly oriented carbon fiber-polymer composites via additive manufacturing. <i>Composites Science and Technology</i>, 105(nan), 144-150. <a href='https://doi.org/10.1016/j.compscitech.2014.10.009' target='_blank'>https://doi.org/10.1016/j.compscitech.2014.10.009</a> <b>[引用量: 1319]</b></li>
+
+<li class="apa">Mäder E.; Grundke K.; Jacobasch H.-J.; Wachinger G. (1994). Surface, interphase and composite property relations in fibre-reinforced polymers. <i>Composites</i>, 25(7), 739-744. <a href='https://doi.org/10.1016/0010-4361(94)90209-7' target='_blank'>https://doi.org/10.1016/0010-4361(94)90209-7</a> <b>[引用量: 167]</b></li>
+
+<li class="apa">Fu S.Y.; Lauke B.; Mäder E.; Hu X.; Yue C.Y. (1999). Fracture resistance of short-glass-fiber-reinforced and short-carbon-fiber-reinforced polypropylene under Charpy impact load and its dependence on processing. <i>Journal of Materials Processing Technology</i>, 89-90(nan), 501-507. <a href='https://doi.org/10.1016/S0924-0136(99)00065-5' target='_blank'>https://doi.org/10.1016/S0924-0136(99)00065-5</a> <b>[引用量: 151]</b></li>
+
+<li class="apa">Jang B.Z. (1992). Control of interfacial adhesion in continuous carbon and kevlar fiber reinforced polymer composites. <i>Composites Science and Technology</i>, 44(4), 333-349. <a href='https://doi.org/10.1016/0266-3538(92)90070-J' target='_blank'>https://doi.org/10.1016/0266-3538(92)90070-J</a> <b>[引用量: 144]</b></li>
+
+<li class="apa">Unterweger C.; Duchoslav J.; Stifter D.; Fürst C. (2015). Characterization of carbon fiber surfaces and their impact on the mechanical properties of short carbon fiber reinforced polypropylene composites. <i>Composites Science and Technology</i>, 108(nan), 41-47. <a href='https://doi.org/10.1016/j.compscitech.2015.01.004' target='_blank'>https://doi.org/10.1016/j.compscitech.2015.01.004</a> <b>[引用量: 136]</b></li>
+
+</ul></div>
+
+<h3>所有年份主题3：纤维增强复合材料</h3>
+<div><b>本主题包含论文：</b>86 篇</div>
+<div><b>关键词：</b>cfrp, polypropylene, fiber reinforced plastics, fiber, thermoplastic, plastic products, mechanical properties of woods, glass fibers, polymer matrix composites (pmc), tensile strength of filled polymer</div>
+<div><b>关键词中文：</b>碳纤维增强塑料, 聚丙烯, 纤维增强塑料, 纤维, 热塑性塑料, 塑料制品, 木材力学性能, 玻璃纤维, 聚合物基复合材料, 填充聚合物拉伸强度</div>
+<div><b>研究重点：</b>纤维增强复合材料的机械性能优化、界面粘附性、加工工艺参数影响、耐久性及环境适应性</div>
+<div><b>使用的技术：</b>有限元建模（ABAQUS）、数字图像相关分析、超声波焊接、注塑成型、热压成型、3D打印、固态拉伸</div>
+<div><b>典型应用：</b>运动器材（如击剑装备）、汽车零部件（齿轮、轴承）、航空航天结构件、假肢接受腔、风力涡轮机叶片回收再利用、建筑增强材料（地砖、墙板）</div>
+<div><b>尚待解决的问题：</b>1. 纤维-基体界面优化与长期耐久性</div>
+<div id="all_kw_graph_2" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('all_kw_graph_2'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60, 'value': 20, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60.0, 'value': 19, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 50.0, 'value': 15, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 42.5, 'value': 12, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'thermoplastic', 'name': 'thermoplastic', 'symbolSize': 40.0, 'value': 11, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'plastic products', 'name': 'plastic products', 'symbolSize': 35.0, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 32.5, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'glass fibers', 'name': 'glass fibers', 'symbolSize': 32.5, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polymer matrix composites (pmc)', 'name': 'polymer matrix composites (pmc)', 'symbolSize': 30.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 30.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'cfrp', 'target': 'polypropylene', 'value': 14}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 11}, {'source': 'cfrp', 'target': 'fiber', 'value': 11}, {'source': 'cfrp', 'target': 'thermoplastic', 'value': 10}, {'source': 'cfrp', 'target': 'plastic products', 'value': 8}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 7}, {'source': 'cfrp', 'target': 'glass fibers', 'value': 7}, {'source': 'cfrp', 'target': 'polymer matrix composites (pmc)', 'value': 6}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 13}, {'source': 'polypropylene', 'target': 'fiber', 'value': 10}, {'source': 'polypropylene', 'target': 'thermoplastic', 'value': 6}, {'source': 'polypropylene', 'target': 'plastic products', 'value': 6}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 7}, {'source': 'polypropylene', 'target': 'glass fibers', 'value': 6}, {'source': 'polypropylene', 'target': 'polymer matrix composites (pmc)', 'value': 5}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 7}, {'source': 'fiber reinforced plastics', 'target': 'fiber', 'value': 6}, {'source': 'fiber reinforced plastics', 'target': 'thermoplastic', 'value': 7}, {'source': 'fiber reinforced plastics', 'target': 'plastic products', 'value': 6}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'glass fibers', 'value': 6}, {'source': 'fiber reinforced plastics', 'target': 'polymer matrix composites (pmc)', 'value': 5}, {'source': 'fiber reinforced plastics', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'fiber', 'target': 'thermoplastic', 'value': 6}, {'source': 'fiber', 'target': 'plastic products', 'value': 5}, {'source': 'fiber', 'target': 'mechanical properties of woods', 'value': 7}, {'source': 'fiber', 'target': 'glass fibers', 'value': 4}, {'source': 'fiber', 'target': 'polymer matrix composites (pmc)', 'value': 4}, {'source': 'fiber', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'thermoplastic', 'target': 'plastic products', 'value': 7}, {'source': 'thermoplastic', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'thermoplastic', 'target': 'glass fibers', 'value': 4}, {'source': 'thermoplastic', 'target': 'polymer matrix composites (pmc)', 'value': 4}, {'source': 'thermoplastic', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'plastic products', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'plastic products', 'target': 'glass fibers', 'value': 2}, {'source': 'plastic products', 'target': 'polymer matrix composites (pmc)', 'value': 5}, {'source': 'plastic products', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'polymer matrix composites (pmc)', 'value': 5}, {'source': 'mechanical properties of woods', 'target': 'tensile strength of filled polymer', 'value': 2}, {'source': 'glass fibers', 'target': 'tensile strength of filled polymer', 'value': 4}, {'source': 'polymer matrix composites (pmc)', 'target': 'tensile strength of filled polymer', 'value': 2}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Czigány T. (2006). Special manufacturing and characteristics of basalt fiber reinforced hybrid polypropylene composites: Mechanical properties and acoustic emission study. <i>Composites Science and Technology</i>, 66(16), 3210-3220. <a href='https://doi.org/10.1016/j.compscitech.2005.07.007' target='_blank'>https://doi.org/10.1016/j.compscitech.2005.07.007</a> <b>[引用量: 229]</b></li>
+
+<li class="apa">Shields R.J.; Bhattacharyya D.; Fakirov S. (2008). Fibrillar polymer-polymer composites: Morphology, properties and applications. <i>Journal of Materials Science</i>, 43(20), 6758-6770. <a href='https://doi.org/10.1007/s10853-008-2693-z' target='_blank'>https://doi.org/10.1007/s10853-008-2693-z</a> <b>[引用量: 99]</b></li>
+
+<li class="apa">Prehn R.; Haupert F.; Friedrich K. (2005). Sliding wear performance of polymer composites under abrasive and water lubricated conditions for pump applications. <i>Wear</i>, 259(1-6), 693-696. <a href='https://doi.org/10.1016/j.wear.2005.02.054' target='_blank'>https://doi.org/10.1016/j.wear.2005.02.054</a> <b>[引用量: 93]</b></li>
+
+<li class="apa">Vanclooster K.; Lomov S.V.; Verpoest I. (2009). Experimental validation of forming simulations of fabric reinforced polymers using an unsymmetrical mould configuration. <i>Composites Part A: Applied Science and Manufacturing</i>, 40(4), 530-539. <a href='https://doi.org/10.1016/j.compositesa.2009.02.005' target='_blank'>https://doi.org/10.1016/j.compositesa.2009.02.005</a> <b>[引用量: 89]</b></li>
+
+<li class="apa">Sui G.; Fuqua M.A.; Ulven C.A.; Zhong W.H. (2009). A plant fiber reinforced polymer composite prepared by a twin-screw extruder. <i>Bioresource Technology</i>, 100(3), 1246-1251. <a href='https://doi.org/10.1016/j.biortech.2008.03.065' target='_blank'>https://doi.org/10.1016/j.biortech.2008.03.065</a> <b>[引用量: 84]</b></li>
+
+</ul></div>
+
+<h3>所有年份主题4：碳纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>83 篇</div>
+<div><b>关键词：</b>cfrp, polypropylene, electric conductivity measurement, carbon fiber-reinforced thermoplastic composites, polymer blends, electrical conductivity model, complex, mechanical properties of woods, tensile strength of filled polymer, a. polymer-matrix composites (pmcs)</div>
+<div><b>关键词中文：</b>碳纤维增强塑料, 聚丙烯, 电导率测量, 碳纤维增强热塑性复合材料, 聚合物共混物, 电导率模型, 复合材料, 木材力学性能, 填充聚合物拉伸强度, 聚合物基复合材料</div>
+<div><b>研究重点：</b>碳纤维增强聚丙烯复合材料的机械性能优化、界面粘附增强、多功能性（如导电性、热管理）</div>
+<div><b>使用的技术：</b>热压法、3D打印（FDM）、注塑成型、电化学氧化、硅烷处理、分子动力学模拟</div>
+<div><b>典型应用：</b>汽车轻量化部件（如保险杠、底盘护板）、电子封装、燃料电池双极板、航空航天结构件</div>
+<div><b>尚待解决的问题：</b>高纤维含量下的界面粘附不足、导电性能未达工业目标（如燃料电池双极板）、大规模生产的工艺稳定性、回收材料的性能一致性</div>
+<div id="all_kw_graph_3" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('all_kw_graph_3'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60, 'value': 28, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60.0, 'value': 25, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'electric conductivity measurement', 'name': 'electric conductivity measurement', 'symbolSize': 34.5, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 33.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polymer blends', 'name': 'polymer blends', 'symbolSize': 33.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'electrical conductivity model', 'name': 'electrical conductivity model', 'symbolSize': 33.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'complex', 'name': 'complex', 'symbolSize': 31.5, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'a. polymer-matrix composites (pmcs)', 'name': 'a. polymer-matrix composites (pmcs)', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'cfrp', 'target': 'polypropylene', 'value': 25}, {'source': 'cfrp', 'target': 'electric conductivity measurement', 'value': 8}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 7}, {'source': 'cfrp', 'target': 'polymer blends', 'value': 7}, {'source': 'cfrp', 'target': 'electrical conductivity model', 'value': 7}, {'source': 'cfrp', 'target': 'complex', 'value': 6}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 5}, {'source': 'cfrp', 'target': 'a. polymer-matrix composites (pmcs)', 'value': 5}, {'source': 'polypropylene', 'target': 'electric conductivity measurement', 'value': 6}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 7}, {'source': 'polypropylene', 'target': 'polymer blends', 'value': 7}, {'source': 'polypropylene', 'target': 'electrical conductivity model', 'value': 6}, {'source': 'polypropylene', 'target': 'complex', 'value': 6}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 4}, {'source': 'polypropylene', 'target': 'a. polymer-matrix composites (pmcs)', 'value': 2}, {'source': 'electric conductivity measurement', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'electric conductivity measurement', 'target': 'polymer blends', 'value': 2}, {'source': 'electric conductivity measurement', 'target': 'electrical conductivity model', 'value': 5}, {'source': 'electric conductivity measurement', 'target': 'complex', 'value': 2}, {'source': 'electric conductivity measurement', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'electric conductivity measurement', 'target': 'tensile strength of filled polymer', 'value': 3}, {'source': 'electric conductivity measurement', 'target': 'a. polymer-matrix composites (pmcs)', 'value': 2}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'polymer blends', 'value': 2}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'electrical conductivity model', 'value': 4}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'complex', 'value': 3}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'tensile strength of filled polymer', 'value': 2}, {'source': 'polymer blends', 'target': 'electrical conductivity model', 'value': 3}, {'source': 'polymer blends', 'target': 'complex', 'value': 4}, {'source': 'polymer blends', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'electrical conductivity model', 'target': 'complex', 'value': 2}, {'source': 'electrical conductivity model', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'electrical conductivity model', 'target': 'tensile strength of filled polymer', 'value': 1}, {'source': 'electrical conductivity model', 'target': 'a. polymer-matrix composites (pmcs)', 'value': 1}, {'source': 'complex', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'mechanical properties of woods', 'target': 'tensile strength of filled polymer', 'value': 1}, {'source': 'tensile strength of filled polymer', 'target': 'a. polymer-matrix composites (pmcs)', 'value': 1}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Spoerk M.; Savandaiah C.; Arbeiter F.; Traxler G.; Cardon L.; Holzer C.; Sapkota J. (2018). Anisotropic properties of oriented short carbon fibre filled polypropylene parts fabricated by extrusion-based additive manufacturing. <i>Composites Part A: Applied Science and Manufacturing</i>, 113(nan), 95-104. <a href='https://doi.org/10.1016/j.compositesa.2018.06.018' target='_blank'>https://doi.org/10.1016/j.compositesa.2018.06.018</a> <b>[引用量: 204]</b></li>
+
+<li class="apa">Kuriger R.J.; Alam M.K.; Anderson D.P.; Jacobsen R.L. (2002). Processing and characterization of aligned vapor grown carbon fiber reinforced polypropylene. <i>Composites - Part A: Applied Science and Manufacturing</i>, 33(1), 53-62. <a href='https://doi.org/10.1016/S1359-835X(01)00070-7' target='_blank'>https://doi.org/10.1016/S1359-835X(01)00070-7</a> <b>[引用量: 199]</b></li>
+
+<li class="apa">Taipalus R.; Harmia T.; Zhang M.Q.; Friedrich K. (2001). The electrical conductivity of carbon-fibre-reinforced polypropylene/polyaniline complex-blends: Experimental characterisation and modelling. <i>Composites Science and Technology</i>, 61(6), 801-814. <a href='https://doi.org/10.1016/S0266-3538(00)00183-4' target='_blank'>https://doi.org/10.1016/S0266-3538(00)00183-4</a> <b>[引用量: 166]</b></li>
+
+<li class="apa">Sau K.P.; Chaki T.K.; Khastgir D. (1998). Carbon fibre filled conductive composites based on nitrile rubber (NBR), ethylene propylene diene rubber (EPDM) and their blend. <i>Polymer</i>, 39(25), 6461-6471. <a href='https://doi.org/10.1016/S0032-3861(97)10188-4' target='_blank'>https://doi.org/10.1016/S0032-3861(97)10188-4</a> <b>[引用量: 119]</b></li>
+
+<li class="apa">Ameli A.; Jung P.U.; Park C.B. (2013). Through-plane electrical conductivity of injection-molded polypropylene/carbon-fiber composite foams. <i>Composites Science and Technology</i>, 76(nan), 37-44. <a href='https://doi.org/10.1016/j.compscitech.2012.12.008' target='_blank'>https://doi.org/10.1016/j.compscitech.2012.12.008</a> <b>[引用量: 117]</b></li>
+
+</ul></div>
+
+<h3>所有年份主题5：复合材料力学性能研究</h3>
+<div><b>本主题包含论文：</b>83 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, fiber reinforced plastics, support, finite element method, polymer, composite materials - nonmetallic matrix composites, fracture, mechanical properties of woods, polymer matrix composites (pmc)</div>
+<div><b>关键词中文：</b>聚丙烯, 碳纤维增强塑料, 纤维增强塑料, 支撑, 有限元法, 聚合物, 复合材料 - 非金属基复合材料, 断裂, 木材力学性能, 聚合物基复合材料</div>
+<div><b>研究重点：</b>复合材料在静态和动态载荷下的力学行为、损伤机制及优化设计</div>
+<div><b>使用的技术：</b>有限元分析(FEA)、3D打印、激光表面处理、声发射监测</div>
+<div><b>典型应用：</b>航空航天结构、风力涡轮机叶片、隧道衬砌、假肢设计、压力容器</div>
+<div><b>尚待解决的问题：</b>长期疲劳性能预测、多尺度损伤建模、成本效益平衡、环境影响评估</div>
+<div id="all_kw_graph_4" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('all_kw_graph_4'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 21, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 18, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 46.15384615384615, 'value': 12, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'support', 'name': 'support', 'symbolSize': 39.230769230769226, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'finite element method', 'name': 'finite element method', 'symbolSize': 32.30769230769231, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polymer', 'name': 'polymer', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'composite materials - nonmetallic matrix composites', 'name': 'composite materials - nonmetallic matrix composites', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fracture', 'name': 'fracture', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polymer matrix composites (pmc)', 'name': 'polymer matrix composites (pmc)', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 14}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 10}, {'source': 'polypropylene', 'target': 'support', 'value': 7}, {'source': 'polypropylene', 'target': 'finite element method', 'value': 5}, {'source': 'polypropylene', 'target': 'polymer', 'value': 4}, {'source': 'polypropylene', 'target': 'composite materials - nonmetallic matrix composites', 'value': 5}, {'source': 'polypropylene', 'target': 'fracture', 'value': 5}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'polypropylene', 'target': 'polymer matrix composites (pmc)', 'value': 3}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 7}, {'source': 'cfrp', 'target': 'support', 'value': 5}, {'source': 'cfrp', 'target': 'finite element method', 'value': 5}, {'source': 'cfrp', 'target': 'polymer', 'value': 4}, {'source': 'cfrp', 'target': 'composite materials - nonmetallic matrix composites', 'value': 5}, {'source': 'cfrp', 'target': 'fracture', 'value': 1}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'cfrp', 'target': 'polymer matrix composites (pmc)', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'support', 'value': 7}, {'source': 'fiber reinforced plastics', 'target': 'finite element method', 'value': 2}, {'source': 'fiber reinforced plastics', 'target': 'polymer', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'composite materials - nonmetallic matrix composites', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'fracture', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'polymer matrix composites (pmc)', 'value': 2}, {'source': 'support', 'target': 'finite element method', 'value': 1}, {'source': 'support', 'target': 'polymer', 'value': 2}, {'source': 'support', 'target': 'composite materials - nonmetallic matrix composites', 'value': 2}, {'source': 'support', 'target': 'fracture', 'value': 3}, {'source': 'support', 'target': 'polymer matrix composites (pmc)', 'value': 2}, {'source': 'finite element method', 'target': 'polymer', 'value': 1}, {'source': 'finite element method', 'target': 'composite materials - nonmetallic matrix composites', 'value': 1}, {'source': 'finite element method', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'finite element method', 'target': 'polymer matrix composites (pmc)', 'value': 1}, {'source': 'polymer', 'target': 'composite materials - nonmetallic matrix composites', 'value': 1}, {'source': 'polymer', 'target': 'fracture', 'value': 1}, {'source': 'polymer', 'target': 'polymer matrix composites (pmc)', 'value': 1}, {'source': 'composite materials - nonmetallic matrix composites', 'target': 'fracture', 'value': 1}, {'source': 'composite materials - nonmetallic matrix composites', 'target': 'polymer matrix composites (pmc)', 'value': 1}, {'source': 'fracture', 'target': 'polymer matrix composites (pmc)', 'value': 1}, {'source': 'mechanical properties of woods', 'target': 'polymer matrix composites (pmc)', 'value': 1}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Papanicolaou C.; Triantafillou T.; Lekka M. (2011). Externally bonded grids as strengthening and seismic retrofitting materials of masonry panels. <i>Construction and Building Materials</i>, 25(2), 504-514. <a href='https://doi.org/10.1016/j.conbuildmat.2010.07.018' target='_blank'>https://doi.org/10.1016/j.conbuildmat.2010.07.018</a> <b>[引用量: 256]</b></li>
+
+<li class="apa">Cortés P.; Cantwell W.J. (2005). The fracture properties of a fibre-metal laminate based on magnesium alloy. <i>Composites Part B: Engineering</i>, 37(2-3), 163-170. <a href='https://doi.org/10.1016/j.compositesb.2005.06.002' target='_blank'>https://doi.org/10.1016/j.compositesb.2005.06.002</a> <b>[引用量: 174]</b></li>
+
+<li class="apa">Acanfora V.; Sellitto A.; Russo A.; Zarrelli M.; Riccio A. (2023). Experimental investigation on 3D printed lightweight sandwich structures for energy absorption aerospace applications. <i>Aerospace Science and Technology</i>, 137(nan), nan-nan. <a href='https://doi.org/10.1016/j.ast.2023.108276' target='_blank'>https://doi.org/10.1016/j.ast.2023.108276</a> <b>[引用量: 79]</b></li>
+
+<li class="apa">Wang Z.; Luo Q.; Li Q.; Sun G. (2022). Design optimization of bioinspired helicoidal CFRPP/GFRPP hybrid composites for multiple low-velocity impact loads. <i>International Journal of Mechanical Sciences</i>, 219(nan), nan-nan. <a href='https://doi.org/10.1016/j.ijmecsci.2022.107064' target='_blank'>https://doi.org/10.1016/j.ijmecsci.2022.107064</a> <b>[引用量: 74]</b></li>
+
+<li class="apa">Karami Pabandi H.; Movahedi M.; Kokabi A.H. (2017). A new refill friction spot welding process for aluminum/polymer composite hybrid structures. <i>Composite Structures</i>, 174(nan), 59-69. <a href='https://doi.org/10.1016/j.compstruct.2017.04.053' target='_blank'>https://doi.org/10.1016/j.compstruct.2017.04.053</a> <b>[引用量: 70]</b></li>
+
+</ul></div>
+
+
+<h2>最近5年主题总结：</h2>
+
+<h3>最近5年主题1：碳纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>46 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, tensile strength of filled polymer, carbon fiber reinforced composites (cfrc), support, polypropylene composites, fiber, carbon fiber-reinforced thermoplastic composites, mechanical properties of woods, fiber reinforced polypropylene composites</div>
+<div><b>关键词中文：</b>聚丙烯,碳纤维增强塑料,填充聚合物拉伸强度,碳纤维增强复合材料,支撑,聚丙烯复合材料,纤维,碳纤维增强热塑性复合材料,木材力学性能,纤维增强聚丙烯复合材料</div>
+<div><b>研究重点：</b>碳纤维增强聚丙烯复合材料的力学性能、界面粘结性能、摩擦学行为、纤维取向对弹性模量的影响、3D打印工艺优化</div>
+<div><b>使用的技术：</b>熔融沉积建模（FDM）、注塑成型、压缩成型、热压成型、Mori-Tanaka模型、Halpin-Tsai模型、有限元分析（FEA）、高斯过程回归（GPR）</div>
+<div><b>典型应用：</b>汽车零部件、航空航天结构、电子设备外壳、电池外壳、轻量化工业部件</div>
+<div><b>尚待解决的问题：</b>1. 界面粘结强度不足导致的力学性能下降</div>
+<div id="recent_kw_graph_0" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('recent_kw_graph_0'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 25, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 15, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 55.714285714285715, 'value': 14, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber reinforced composites (cfrc)', 'name': 'carbon fiber reinforced composites (cfrc)', 'symbolSize': 47.14285714285714, 'value': 12, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'support', 'name': 'support', 'symbolSize': 38.57142857142857, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polypropylene composites', 'name': 'polypropylene composites', 'symbolSize': 38.57142857142857, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 34.285714285714285, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 34.285714285714285, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 30.0, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced polypropylene composites', 'name': 'fiber reinforced polypropylene composites', 'symbolSize': 30.0, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 14}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 14}, {'source': 'polypropylene', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 11}, {'source': 'polypropylene', 'target': 'support', 'value': 10}, {'source': 'polypropylene', 'target': 'polypropylene composites', 'value': 9}, {'source': 'polypropylene', 'target': 'fiber', 'value': 9}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 8}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 6}, {'source': 'polypropylene', 'target': 'fiber reinforced polypropylene composites', 'value': 8}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'cfrp', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 5}, {'source': 'cfrp', 'target': 'support', 'value': 4}, {'source': 'cfrp', 'target': 'polypropylene composites', 'value': 4}, {'source': 'cfrp', 'target': 'fiber', 'value': 4}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 5}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'cfrp', 'target': 'fiber reinforced polypropylene composites', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 9}, {'source': 'tensile strength of filled polymer', 'target': 'support', 'value': 6}, {'source': 'tensile strength of filled polymer', 'target': 'polypropylene composites', 'value': 7}, {'source': 'tensile strength of filled polymer', 'target': 'fiber', 'value': 6}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'fiber reinforced polypropylene composites', 'value': 6}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'support', 'value': 6}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'polypropylene composites', 'value': 3}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'fiber', 'value': 6}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'carbon fiber reinforced composites (cfrc)', 'target': 'fiber reinforced polypropylene composites', 'value': 6}, {'source': 'support', 'target': 'polypropylene composites', 'value': 2}, {'source': 'support', 'target': 'fiber', 'value': 6}, {'source': 'support', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 1}, {'source': 'support', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'support', 'target': 'fiber reinforced polypropylene composites', 'value': 4}, {'source': 'polypropylene composites', 'target': 'fiber', 'value': 2}, {'source': 'polypropylene composites', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'polypropylene composites', 'target': 'fiber reinforced polypropylene composites', 'value': 1}, {'source': 'fiber', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 1}, {'source': 'fiber', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'fiber', 'target': 'fiber reinforced polypropylene composites', 'value': 2}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'fiber reinforced polypropylene composites', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'fiber reinforced polypropylene composites', 'value': 3}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Hetrick D.R.; Sanei S.H.R.; Bakis C.E.; Ashour O. (2021). Evaluating the effect of variable fiber content on mechanical properties of additively manufactured continuous carbon fiber composites. <i>Journal of Reinforced Plastics and Composites</i>, 40(9-10), 365-377. <a href='https://doi.org/10.1177/0731684420963217' target='_blank'>https://doi.org/10.1177/0731684420963217</a> <b>[引用量: 55]</b></li>
+
+<li class="apa">Sathishkumar G.K.; Ibrahim M.; Mohamed Akheel M.; Rajkumar G.; Gopinath B.; Karpagam R.; Karthik P.; Martin Charles M.; Gautham G.; Gowri Shankar G. (2022). Synthesis and Mechanical Properties of Natural Fiber Reinforced Epoxy/Polyester/Polypropylene Composites: A Review. <i>Journal of Natural Fibers</i>, 19(10), 3718-3741. <a href='https://doi.org/10.1080/15440478.2020.1848723' target='_blank'>https://doi.org/10.1080/15440478.2020.1848723</a> <b>[引用量: 50]</b></li>
+
+<li class="apa">Gogoi R.; Maurya A.K.; Manik G. (2022). A review on recent development in carbon fiber reinforced polyolefin composites. <i>Composites Part C: Open Access</i>, 8(nan), nan-nan. <a href='https://doi.org/10.1016/j.jcomc.2022.100279' target='_blank'>https://doi.org/10.1016/j.jcomc.2022.100279</a> <b>[引用量: 43]</b></li>
+
+<li class="apa">Pei S.; Wang K.; Chen C.-B.; Li J.; Li Y.; Zeng D.; Su X.; Yang H. (2021). Process-structure-property analysis of short carbon fiber reinforced polymer composite via fused filament fabrication. <i>Journal of Manufacturing Processes</i>, 64(nan), 544-556. <a href='https://doi.org/10.1016/j.jmapro.2021.02.019' target='_blank'>https://doi.org/10.1016/j.jmapro.2021.02.019</a> <b>[引用量: 37]</b></li>
+
+<li class="apa">Zhang P.; Sun S.; Duan J.; Fu H.; Han Z.; Geng H.; Feng Y. (2023). Line width prediction and mechanical properties of 3D printed continuous fiber reinforced polypropylene composites. <i>Additive Manufacturing</i>, 61(nan), nan-nan. <a href='https://doi.org/10.1016/j.addma.2022.103372' target='_blank'>https://doi.org/10.1016/j.addma.2022.103372</a> <b>[引用量: 33]</b></li>
+
+</ul></div>
+
+<h3>最近5年主题2：纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>41 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, tensile strength of filled polymer, fiber, fiber reinforced plastics, mechanical properties of woods, polypropylene composites, carbon fiber-reinforced thermoplastic composites, complex, carbon fiber reinforced composites (cfrc)</div>
+<div><b>关键词中文：</b>聚丙烯, 碳纤维增强塑料, 填充聚合物拉伸强度, 纤维, 纤维增强塑料, 木材力学性能, 聚丙烯复合材料, 碳纤维增强热塑性复合材料, 复合材料, 碳纤维增强复合材料</div>
+<div><b>研究重点：</b>1. 加工参数（如熔融温度、背压、模具温度）对纤维长度和力学性能的影响</div>
+<div><b>使用的技术：</b>1. 注塑成型、压缩成型、挤出-拉挤成型</div>
+<div><b>典型应用：</b>1. 汽车轻量化部件（保险杠、齿轮、耐撞结构）</div>
+<div><b>尚待解决的问题：</b>1. 注塑过程中纤维长度的有效保留</div>
+<div id="recent_kw_graph_1" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('recent_kw_graph_1'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 24, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 16, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 42.0, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 36.0, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 36.0, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 33.0, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polypropylene composites', 'name': 'polypropylene composites', 'symbolSize': 30.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 30.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'complex', 'name': 'complex', 'symbolSize': 30.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber reinforced composites (cfrc)', 'name': 'carbon fiber reinforced composites (cfrc)', 'symbolSize': 30.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 14}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'polypropylene', 'target': 'fiber', 'value': 7}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 8}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'polypropylene', 'target': 'polypropylene composites', 'value': 6}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 5}, {'source': 'polypropylene', 'target': 'complex', 'value': 6}, {'source': 'polypropylene', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 5}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 5}, {'source': 'cfrp', 'target': 'fiber', 'value': 3}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 1}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'cfrp', 'target': 'polypropylene composites', 'value': 3}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'cfrp', 'target': 'complex', 'value': 4}, {'source': 'cfrp', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'fiber', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'fiber reinforced plastics', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'polypropylene composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'complex', 'value': 1}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 2}, {'source': 'fiber', 'target': 'fiber reinforced plastics', 'value': 4}, {'source': 'fiber', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'fiber', 'target': 'polypropylene composites', 'value': 1}, {'source': 'fiber', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 1}, {'source': 'fiber', 'target': 'complex', 'value': 1}, {'source': 'fiber', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'fiber reinforced plastics', 'target': 'polypropylene composites', 'value': 2}, {'source': 'fiber reinforced plastics', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'complex', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 4}, {'source': 'mechanical properties of woods', 'target': 'polypropylene composites', 'value': 2}, {'source': 'mechanical properties of woods', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'mechanical properties of woods', 'target': 'complex', 'value': 2}, {'source': 'mechanical properties of woods', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 2}, {'source': 'polypropylene composites', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'polypropylene composites', 'target': 'complex', 'value': 3}, {'source': 'polypropylene composites', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'complex', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 2}, {'source': 'complex', 'target': 'carbon fiber reinforced composites (cfrc)', 'value': 1}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Randall J.D.; Stojcevski F.; Djordjevic N.; Hendlmeier A.; Dharmasiri B.; Stanfield M.K.; Knorr D.B.; Tran N.T.; Varley R.J.; Henderson L.C. (2022). Carbon fiber polypropylene interphase modification as a route to improved toughness. <i>Composites Part A: Applied Science and Manufacturing</i>, 159(nan), nan-nan. <a href='https://doi.org/10.1016/j.compositesa.2022.107001' target='_blank'>https://doi.org/10.1016/j.compositesa.2022.107001</a> <b>[引用量: 27]</b></li>
+
+<li class="apa">Kore S.; Spencer R.; Ghossein H.; Slaven L.; Knight D.; Unser J.; Vaidya U. (2021). Performance of hybridized bamboo-carbon fiber reinforced polypropylene composites processed using wet laid technique. <i>Composites Part C: Open Access</i>, 6(nan), nan-nan. <a href='https://doi.org/10.1016/j.jcomc.2021.100185' target='_blank'>https://doi.org/10.1016/j.jcomc.2021.100185</a> <b>[引用量: 26]</b></li>
+
+<li class="apa">Savandaiah C.; Maurer J.; Gall M.; Haider A.; Steinbichler G.; Sapkota J. (2021). Impact of processing conditions and sizing on the thermomechanical and morphological properties of polypropylene/carbon fiber composites fabricated by material extrusion additive manufacturing. <i>Journal of Applied Polymer Science</i>, 138(16), nan-nan. <a href='https://doi.org/10.1002/app.50243' target='_blank'>https://doi.org/10.1002/app.50243</a> <b>[引用量: 22]</b></li>
+
+<li class="apa">Gaduan A.N.; Singkronart K.; Bell C.; Tierney E.; Burgstaller C.; Lee K.-Y. (2022). Mechanical Upcycling Immiscible Polyethylene Terephthalate-Polypropylene Blends with Carbon Fiber Reinforcement. <i>ACS Applied Polymer Materials</i>, 4(5), 3294-3303. <a href='https://doi.org/10.1021/acsapm.1c01850' target='_blank'>https://doi.org/10.1021/acsapm.1c01850</a> <b>[引用量: 16]</b></li>
+
+<li class="apa">Ahmed K.; Qin X.; Pang Y.; Shao Y.; Islam S.R.; Yang Y.; Hamada H.; Yu L. (2023). Effect of de-sizing on the structural and mechanical properties of carbon fiber reinforced polypropylene composites molded by the novel direct fiber feeding injection molding technology. <i>Journal of Thermoplastic Composite Materials</i>, 36(5), 1847-1876. <a href='https://doi.org/10.1177/08927057221077872' target='_blank'>https://doi.org/10.1177/08927057221077872</a> <b>[引用量: 15]</b></li>
+
+</ul></div>
+
+<h3>最近5年主题3：碳纤维增强聚丙烯复合材料</h3>
+<div><b>本主题包含论文：</b>36 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, fiber reinforced plastics, tensile strength of filled polymer, support, carbon fiber-reinforced thermoplastic composites, graphite fibers, electrical conductivity model, polypropylene composites, fiber reinforced polypropylene composites</div>
+<div><b>关键词中文：</b>聚丙烯,碳纤维增强塑料,纤维增强塑料,填充聚合物拉伸强度,支撑,碳纤维增强热塑性复合材料,石墨纤维,导电模型,聚丙烯复合材料,纤维增强聚丙烯复合材料</div>
+<div><b>研究重点：</b>提升碳纤维增强聚丙烯复合材料的机械性能、热导率及电磁屏蔽效能，优化界面粘附与纤维分布。</div>
+<div><b>使用的技术：</b>3D打印、熔融混合、压缩成型、电化学氧化、硅烷处理、分子动力学模拟。</div>
+<div><b>典型应用：</b>电子封装、电池热管理、轻量化汽车部件、电磁屏蔽材料、燃料电池双极板。</div>
+<div><b>尚待解决的问题：</b>高纤维含量下的界面粘附不足、电磁屏蔽效能的进一步提升、大规模生产的工艺优化、环境友好型回收方法的开发。</div>
+<div id="recent_kw_graph_2" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('recent_kw_graph_2'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 24, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 15, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 54.0, 'value': 13, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 42.0, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'support', 'name': 'support', 'symbolSize': 42.0, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'carbon fiber-reinforced thermoplastic composites', 'name': 'carbon fiber-reinforced thermoplastic composites', 'symbolSize': 39.0, 'value': 8, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'graphite fibers', 'name': 'graphite fibers', 'symbolSize': 33.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'electrical conductivity model', 'name': 'electrical conductivity model', 'symbolSize': 33.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'polypropylene composites', 'name': 'polypropylene composites', 'symbolSize': 33.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced polypropylene composites', 'name': 'fiber reinforced polypropylene composites', 'symbolSize': 30.0, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 12}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 12}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'polypropylene', 'target': 'support', 'value': 9}, {'source': 'polypropylene', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 7}, {'source': 'polypropylene', 'target': 'graphite fibers', 'value': 6}, {'source': 'polypropylene', 'target': 'electrical conductivity model', 'value': 5}, {'source': 'polypropylene', 'target': 'polypropylene composites', 'value': 4}, {'source': 'polypropylene', 'target': 'fiber reinforced polypropylene composites', 'value': 4}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 7}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 5}, {'source': 'cfrp', 'target': 'support', 'value': 5}, {'source': 'cfrp', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 4}, {'source': 'cfrp', 'target': 'graphite fibers', 'value': 1}, {'source': 'cfrp', 'target': 'electrical conductivity model', 'value': 3}, {'source': 'cfrp', 'target': 'polypropylene composites', 'value': 4}, {'source': 'cfrp', 'target': 'fiber reinforced polypropylene composites', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'tensile strength of filled polymer', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'support', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'graphite fibers', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'electrical conductivity model', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'polypropylene composites', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'fiber reinforced polypropylene composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'support', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'graphite fibers', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'electrical conductivity model', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'polypropylene composites', 'value': 1}, {'source': 'tensile strength of filled polymer', 'target': 'fiber reinforced polypropylene composites', 'value': 1}, {'source': 'support', 'target': 'carbon fiber-reinforced thermoplastic composites', 'value': 2}, {'source': 'support', 'target': 'graphite fibers', 'value': 1}, {'source': 'support', 'target': 'electrical conductivity model', 'value': 2}, {'source': 'support', 'target': 'polypropylene composites', 'value': 1}, {'source': 'support', 'target': 'fiber reinforced polypropylene composites', 'value': 2}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'graphite fibers', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'electrical conductivity model', 'value': 1}, {'source': 'carbon fiber-reinforced thermoplastic composites', 'target': 'polypropylene composites', 'value': 1}, {'source': 'graphite fibers', 'target': 'electrical conductivity model', 'value': 2}, {'source': 'graphite fibers', 'target': 'fiber reinforced polypropylene composites', 'value': 1}, {'source': 'electrical conductivity model', 'target': 'polypropylene composites', 'value': 2}, {'source': 'electrical conductivity model', 'target': 'fiber reinforced polypropylene composites', 'value': 1}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Kaushal A.; Singh V. (2022). Excellent electromagnetic interference shielding performance of polypropylene/carbon fiber/multiwalled carbon nanotube nanocomposites. <i>Polymer Composites</i>, 43(6), 3708-3715. <a href='https://doi.org/10.1002/pc.26649' target='_blank'>https://doi.org/10.1002/pc.26649</a> <b>[引用量: 33]</b></li>
+
+<li class="apa">Pomázi Á.; Toldy A. (2021). Development of fire retardant epoxy-based gelcoats for carbon fibre reinforced epoxy resin composites. <i>Progress in Organic Coatings</i>, 151(nan), nan-nan. <a href='https://doi.org/10.1016/j.porgcoat.2020.106015' target='_blank'>https://doi.org/10.1016/j.porgcoat.2020.106015</a> <b>[引用量: 31]</b></li>
+
+<li class="apa">Kaushal A.; Singh V. (2022). Analysis of mechanical, thermal, electrical and EMI shielding properties of graphite/carbon fiber reinforced polypropylene composites prepared via a twin screw extruder. <i>Journal of Applied Polymer Science</i>, 139(1), nan-nan. <a href='https://doi.org/10.1002/app.51444' target='_blank'>https://doi.org/10.1002/app.51444</a> <b>[引用量: 28]</b></li>
+
+<li class="apa">Yu M.-H.; Kim H.-S. (2021). Deep-learning based damage sensing of carbon fiber/polypropylene composite via addressable conducting network. <i>Composite Structures</i>, 267(nan), nan-nan. <a href='https://doi.org/10.1016/j.compstruct.2021.113871' target='_blank'>https://doi.org/10.1016/j.compstruct.2021.113871</a> <b>[引用量: 23]</b></li>
+
+<li class="apa">Wu T.; Zhan W.; Jia X.; Li H.; Sui G.; Yang X. (2022). Solvent-free rapid degradation of epoxy composites and recycling application of high performance carbon fibers through the synergic catalysis effect of molten salts and titanium dioxide. <i>Polymer Degradation and Stability</i>, 196(nan), nan-nan. <a href='https://doi.org/10.1016/j.polymdegradstab.2022.109849' target='_blank'>https://doi.org/10.1016/j.polymdegradstab.2022.109849</a> <b>[引用量: 19]</b></li>
+
+</ul></div>
+
+<h3>最近5年主题4：纤维增强复合材料</h3>
+<div><b>本主题包含论文：</b>36 篇</div>
+<div><b>关键词：</b>polypropylene, fiber reinforced plastics, cfrp, tensile strength of filled polymer, glass fibers, tensile testing machines, fiber, complex, mechanical properties of woods, mechanical performances</div>
+<div><b>关键词中文：</b>聚丙烯, 纤维增强塑料, 碳纤维增强塑料, 填充聚合物拉伸强度, 玻璃纤维, 拉伸试验机, 纤维, 复合材料, 木材力学性能, 机械性能</div>
+<div><b>研究重点：</b>优化纤维增强复合材料的力学性能，研究纤维取向、层叠顺序和界面特性对材料性能的影响。</div>
+<div><b>使用的技术：</b>热压成型、有限元分析（ABAQUS）、数字图像相关分析、3D打印（FGF）、声发射检测。</div>
+<div><b>典型应用：</b>运动器材、汽车部件、航空航天压力容器、建筑加固材料、电磁屏蔽材料。</div>
+<div><b>尚待解决的问题：</b>纤维与基体界面粘结强度的提升、长期耐久性（如碱性环境下的性能退化）、纤维取向控制的精确性、成本效益比的优化。</div>
+<div id="recent_kw_graph_3" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('recent_kw_graph_3'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 20, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 60.0, 'value': 16, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 55.0, 'value': 14, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 52.5, 'value': 13, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'glass fibers', 'name': 'glass fibers', 'symbolSize': 37.5, 'value': 7, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile testing machines', 'name': 'tensile testing machines', 'symbolSize': 35.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber', 'name': 'fiber', 'symbolSize': 35.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'complex', 'name': 'complex', 'symbolSize': 35.0, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 32.5, 'value': 5, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical performances', 'name': 'mechanical performances', 'symbolSize': 30.0, 'value': 4, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 13}, {'source': 'polypropylene', 'target': 'cfrp', 'value': 7}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 11}, {'source': 'polypropylene', 'target': 'glass fibers', 'value': 6}, {'source': 'polypropylene', 'target': 'tensile testing machines', 'value': 4}, {'source': 'polypropylene', 'target': 'fiber', 'value': 6}, {'source': 'polypropylene', 'target': 'complex', 'value': 5}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 5}, {'source': 'polypropylene', 'target': 'mechanical performances', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'cfrp', 'value': 7}, {'source': 'fiber reinforced plastics', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'fiber reinforced plastics', 'target': 'glass fibers', 'value': 4}, {'source': 'fiber reinforced plastics', 'target': 'tensile testing machines', 'value': 2}, {'source': 'fiber reinforced plastics', 'target': 'fiber', 'value': 5}, {'source': 'fiber reinforced plastics', 'target': 'complex', 'value': 5}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'mechanical performances', 'value': 3}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 6}, {'source': 'cfrp', 'target': 'glass fibers', 'value': 4}, {'source': 'cfrp', 'target': 'tensile testing machines', 'value': 2}, {'source': 'cfrp', 'target': 'fiber', 'value': 1}, {'source': 'cfrp', 'target': 'complex', 'value': 2}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'cfrp', 'target': 'mechanical performances', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'glass fibers', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'tensile testing machines', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'fiber', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'complex', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical properties of woods', 'value': 4}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical performances', 'value': 4}, {'source': 'glass fibers', 'target': 'tensile testing machines', 'value': 2}, {'source': 'glass fibers', 'target': 'complex', 'value': 1}, {'source': 'glass fibers', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'glass fibers', 'target': 'mechanical performances', 'value': 1}, {'source': 'tensile testing machines', 'target': 'fiber', 'value': 2}, {'source': 'tensile testing machines', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'tensile testing machines', 'target': 'mechanical performances', 'value': 1}, {'source': 'fiber', 'target': 'complex', 'value': 2}, {'source': 'fiber', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'fiber', 'target': 'mechanical performances', 'value': 1}, {'source': 'complex', 'target': 'mechanical performances', 'value': 2}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Yildirim C.; Ulus H.; Beylergil B.; Al-Nadhari A.; Topal S.; Yildiz M. (2023). Effect of atmospheric plasma treatment on Mode-I and Mode-II fracture toughness properties of adhesively bonded carbon fiber/PEKK composite joints. <i>Engineering Fracture Mechanics</i>, 289(nan), nan-nan. <a href='https://doi.org/10.1016/j.engfracmech.2023.109463' target='_blank'>https://doi.org/10.1016/j.engfracmech.2023.109463</a> <b>[引用量: 35]</b></li>
+
+<li class="apa">Abbasi Z.; Jazani O.M.; Sohrabian M. (2021). Designing of high-performance epoxy adhesive with recycled polymers and silica nano particles (SNPs) in epoxy/carbon fiber composite-steel bonded joints: Mechanical properties, thermal stability and toughening mechanisms. <i>Journal of the Taiwan Institute of Chemical Engineers</i>, 123(nan), 310-327. <a href='https://doi.org/10.1016/j.jtice.2021.05.016' target='_blank'>https://doi.org/10.1016/j.jtice.2021.05.016</a> <b>[引用量: 21]</b></li>
+
+<li class="apa">Hao J.; Yi X.; Zong G.; Song Y.; Wang W.; Cheng H.; Wang G. (2021). Fabrication of long bamboo fiber-reinforced thermoplastic composite by extrusion and improvement of its properties. <i>Industrial Crops and Products</i>, 173(nan), nan-nan. <a href='https://doi.org/10.1016/j.indcrop.2021.114120' target='_blank'>https://doi.org/10.1016/j.indcrop.2021.114120</a> <b>[引用量: 16]</b></li>
+
+<li class="apa">Zaami A.; Baran I.; Bor T.C.; Akkerman R. (2021). Optical characterization of fiber-reinforced thermoplastic tapes for laser-based composite manufacturing. <i>Composites Part A: Applied Science and Manufacturing</i>, 146(nan), nan-nan. <a href='https://doi.org/10.1016/j.compositesa.2021.106402' target='_blank'>https://doi.org/10.1016/j.compositesa.2021.106402</a> <b>[引用量: 14]</b></li>
+
+<li class="apa">ZHAO Z.; YANG Z.; ZHANG W.; LIU D.; LI Y.; CHEN J. (2022). Low-velocity impact response and infrared radiation characteristics of thermoplastic/thermoset composites. <i>Chinese Journal of Aeronautics</i>, 35(10), 365-380. <a href='https://doi.org/10.1016/j.cja.2022.03.003' target='_blank'>https://doi.org/10.1016/j.cja.2022.03.003</a> <b>[引用量: 13]</b></li>
+
+</ul></div>
+
+<h3>最近5年主题5：热塑性复合材料优化</h3>
+<div><b>本主题包含论文：</b>28 篇</div>
+<div><b>关键词：</b>polypropylene, cfrp, tensile strength of filled polymer, fiber reinforced plastics, thermoplastic composites, injection molding machines, mechanical properties of woods, property, 3d printing, thermal properties</div>
+<div><b>关键词中文：</b>聚丙烯,碳纤维增强塑料,填充聚合物拉伸强度,纤维增强塑料,热塑性复合材料,注塑机,木材力学性能,性能,3D打印,热性能</div>
+<div><b>研究重点：</b>- 成型工艺对复合材料性能的影响</div>
+<div><b>使用的技术：</b>- 有限元分析（ABAQUS/Explicit）</div>
+<div><b>典型应用：</b>- 新能源汽车轻量化设计</div>
+<div><b>尚待解决的问题：</b>- 成型工艺参数与材料性能的精确关联</div>
+<div id="recent_kw_graph_4" style="width: 800px; height: 400px;"></div>
+<script>
+var chart = echarts.init(document.getElementById('recent_kw_graph_4'));
+var option = {
+    title: {text: '关键词关系图'},
+    tooltip: {},
+    legend: [{data:['中心关键词','相关关键词']}],
+    series: [{
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        label: {show: true},
+        data: [{'id': 'polypropylene', 'name': 'polypropylene', 'symbolSize': 60, 'value': 22, 'category': 0, 'itemStyle': {'color': '#FF0000'}}, {'id': 'cfrp', 'name': 'cfrp', 'symbolSize': 60.0, 'value': 20, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'tensile strength of filled polymer', 'name': 'tensile strength of filled polymer', 'symbolSize': 42.35294117647059, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'fiber reinforced plastics', 'name': 'fiber reinforced plastics', 'symbolSize': 42.35294117647059, 'value': 10, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'thermoplastic composites', 'name': 'thermoplastic composites', 'symbolSize': 40.588235294117645, 'value': 9, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'injection molding machines', 'name': 'injection molding machines', 'symbolSize': 35.294117647058826, 'value': 6, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'mechanical properties of woods', 'name': 'mechanical properties of woods', 'symbolSize': 31.764705882352942, 'value': 4, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'property', 'name': 'property', 'symbolSize': 31.764705882352942, 'value': 4, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': '3d printing', 'name': '3d printing', 'symbolSize': 31.764705882352942, 'value': 4, 'category': 1, 'itemStyle': {'color': '#3399FF'}}, {'id': 'thermal properties', 'name': 'thermal properties', 'symbolSize': 30.0, 'value': 3, 'category': 1, 'itemStyle': {'color': '#3399FF'}}],
+        edges: [{'source': 'polypropylene', 'target': 'cfrp', 'value': 16}, {'source': 'polypropylene', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'polypropylene', 'target': 'fiber reinforced plastics', 'value': 9}, {'source': 'polypropylene', 'target': 'thermoplastic composites', 'value': 7}, {'source': 'polypropylene', 'target': 'injection molding machines', 'value': 6}, {'source': 'polypropylene', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'polypropylene', 'target': 'property', 'value': 2}, {'source': 'polypropylene', 'target': '3d printing', 'value': 2}, {'source': 'polypropylene', 'target': 'thermal properties', 'value': 3}, {'source': 'cfrp', 'target': 'tensile strength of filled polymer', 'value': 8}, {'source': 'cfrp', 'target': 'fiber reinforced plastics', 'value': 5}, {'source': 'cfrp', 'target': 'thermoplastic composites', 'value': 7}, {'source': 'cfrp', 'target': 'injection molding machines', 'value': 4}, {'source': 'cfrp', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'cfrp', 'target': 'property', 'value': 4}, {'source': 'cfrp', 'target': '3d printing', 'value': 3}, {'source': 'cfrp', 'target': 'thermal properties', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'fiber reinforced plastics', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'thermoplastic composites', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'injection molding machines', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'tensile strength of filled polymer', 'target': 'property', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': '3d printing', 'value': 3}, {'source': 'tensile strength of filled polymer', 'target': 'thermal properties', 'value': 1}, {'source': 'fiber reinforced plastics', 'target': 'thermoplastic composites', 'value': 6}, {'source': 'fiber reinforced plastics', 'target': 'injection molding machines', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'mechanical properties of woods', 'value': 3}, {'source': 'fiber reinforced plastics', 'target': 'thermal properties', 'value': 3}, {'source': 'thermoplastic composites', 'target': 'mechanical properties of woods', 'value': 2}, {'source': 'thermoplastic composites', 'target': 'property', 'value': 1}, {'source': 'thermoplastic composites', 'target': '3d printing', 'value': 1}, {'source': 'thermoplastic composites', 'target': 'thermal properties', 'value': 2}, {'source': 'injection molding machines', 'target': 'mechanical properties of woods', 'value': 1}, {'source': 'mechanical properties of woods', 'target': 'property', 'value': 1}, {'source': 'mechanical properties of woods', 'target': '3d printing', 'value': 1}, {'source': 'mechanical properties of woods', 'target': 'thermal properties', 'value': 2}, {'source': 'property', 'target': '3d printing', 'value': 2}],
+        categories: [{name:'中心关键词'},{name:'相关关键词'}],
+        force: {repulsion: 400, edgeLength: 120}
+    }]
+};
+chart.setOption(option);
+</script>
+<div><b>引用量最高的5篇文章：</b><ul>
+
+<li class="apa">Wu J.; Li C.; Hailatihan B.; Mi L.; Baheti Y.; Yan Y. (2022). Effect of the Addition of Thermoplastic Resin and Composite on Mechanical and Thermal Properties of Epoxy Resin. <i>Polymers</i>, 14(6), nan-nan. <a href='https://doi.org/10.3390/polym14061087' target='_blank'>https://doi.org/10.3390/polym14061087</a> <b>[引用量: 42]</b></li>
+
+<li class="apa">Chen J.; Smith D.E. (2021). Filament rheological characterization for fused filament fabrication additive manufacturing: A low-cost approach. <i>Additive Manufacturing</i>, 47(nan), nan-nan. <a href='https://doi.org/10.1016/j.addma.2021.102208' target='_blank'>https://doi.org/10.1016/j.addma.2021.102208</a> <b>[引用量: 33]</b></li>
+
+<li class="apa">Yildirim C.; Ulus H.; Beylergil B.; Al-Nadhari A.; Topal S.; Yildiz M. (2024). Tailoring adherend surfaces for enhanced bonding in CF/PEKK composites: Comparative analysis of atmospheric plasma activation and conventional treatments. <i>Composites Part A: Applied Science and Manufacturing</i>, 180(nan), nan-nan. <a href='https://doi.org/10.1016/j.compositesa.2024.108101' target='_blank'>https://doi.org/10.1016/j.compositesa.2024.108101</a> <b>[引用量: 29]</b></li>
+
+<li class="apa">Parambil N.K.; Chen B.R.; Deitzel J.M.; Gillespie J.W., Jr. (2022). A methodology for predicting processing induced thermal residual stress in thermoplastic composite at the microscale. <i>Composites Part B: Engineering</i>, 231(nan), nan-nan. <a href='https://doi.org/10.1016/j.compositesb.2021.109562' target='_blank'>https://doi.org/10.1016/j.compositesb.2021.109562</a> <b>[引用量: 25]</b></li>
+
+<li class="apa">Regassa Y.; Gari J.; Lemu H.G. (2022). Composite Overwrapped Pressure Vessel Design Optimization Using Numerical Method. <i>Journal of Composites Science</i>, 6(8), nan-nan. <a href='https://doi.org/10.3390/jcs6080229' target='_blank'>https://doi.org/10.3390/jcs6080229</a> <b>[引用量: 23]</b></li>
+
+</ul></div>
+
+
+</body>
+</html>

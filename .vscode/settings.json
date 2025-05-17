@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.sideBar.location": "right",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.view.alwaysShowHeaderActions": false,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "top",
+    "workbench.activityBar.orientation": "vertical",
+    "editor.cursorStyle": "line"
+}

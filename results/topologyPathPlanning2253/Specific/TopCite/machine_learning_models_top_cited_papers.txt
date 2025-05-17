@@ -1,0 +1,55 @@
+关键词 'machine learning models' 的高引用文章分析
+======================================================================
+
+最近3年 (2023, 2024, 2025) 引用最高的5篇文章:
+1. Navigation with Large Language Models: Semantic Guesswork as a Heuristic for Planning (2023)
+   作者: Shah D.; Equi M.; Osinski B.; Xia F.; Ichter B.; Levine S.
+   引用数: 32
+   DOI: nan
+
+2. UAV Path Planning Optimization Strategy: Considerations of Urban Morphology, Microclimate, and Energy Efficiency Using Q-Learning Algorithm (2023)
+   作者: Souto A.; Alfaia R.; Cardoso E.; Araújo J.; Francês C.
+   引用数: 25
+   DOI: 10.3390/drones7020123
+
+3. Mobile Service Robot Path Planning Using Deep Reinforcement Learning (2023)
+   作者: Nippun Kumaar A.A.; Kochuvila S.
+   引用数: 22
+   DOI: 10.1109/ACCESS.2023.3311519
+
+4. Reinforcement learning based path planning using a topological map for mobile service robot (2023)
+   作者: Nippun Kumaar A.A.; Kochuvila S.
+   引用数: 11
+   DOI: 10.1109/CONECCT57959.2023.10234766
+
+5. A strong secure path planning/following system based on type-3 fuzzy control, multi-switching chaotic systems, and random switching topology (2024)
+   作者: Tian M.-W.; Alattas K.A.; Guo W.; Taghavifar H.; Mohammadzadeh A.; Zhang W.; Zhang C.
+   引用数: 4
+   DOI: 10.1007/s40747-023-01248-4
+
+所有年份(除去最近3年)引用最高的5篇文章:
+1. PRM-RL: Long-range robotic navigation tasks by combining reinforcement learning and sampling-based planning (2018)
+   作者: Faust A.; Oslund K.; Ramirez O.; Francis A.; Tapia L.; Fiser M.; Davidson J.
+   引用数: 256
+   DOI: 10.1109/ICRA.2018.8461096
+
+2. Delay-Minimization Routing for Heterogeneous VANETs with Machine Learning Based Mobility Prediction (2019)
+   作者: Tang Y.; Cheng N.; Wu W.; Wang M.; Dai Y.; Shen X.
+   引用数: 182
+   DOI: 10.1109/TVT.2019.2899627
+
+3. Hierarchical evasive path planning using reinforcement learning and model predictive control (2020)
+   作者: Fehér Á.; Aradi S.; Bécsi T.
+   引用数: 27
+   DOI: 10.1109/ACCESS.2020.3031037
+
+4. Vision-based robot navigation through combining unsupervised learning and hierarchical reinforcement learning (2019)
+   作者: Zhou X.; Bai T.; Gao Y.; Han Y.
+   引用数: 26
+   DOI: 10.3390/s19071576
+
+5. Learning to Plan with Uncertain Topological Maps (2020)
+   作者: Beeching E.; Dibangoye J.; Simonin O.; Wolf C.
+   引用数: 14
+   DOI: 10.1007/978-3-030-58580-8_28
+

@@ -1,0 +1,501 @@
+﻿关键词,频次,百分比
+motion planning methods,1042,2.677837171052632
+topology,885,2.2743626644736845
+robot programming,388,0.9971217105263158
+path planning networks,386,0.9919819078947367
+algorithm,290,0.7452713815789473
+mobile robots,269,0.6913034539473684
+optimization,227,0.5833675986842105
+robotics,211,0.5422491776315789
+automaton,208,0.5345394736842105
+navigation,194,0.4985608552631579
+topological mapping system,190,0.48828125
+graph theory networks,187,0.48057154605263164
+network topology analysis,120,0.30838815789473684
+unmanned aerial vehicles (uav),119,0.3058182565789474
+collision avoidance algorithm,109,0.2801192434210526
+computer simulation languages,105,0.26983963815789475
+planning,95,0.244140625
+wireless sensor networks (wsn),94,0.24157072368421054
+intelligent robots,90,0.2312911184210526
+path-planning algorithms,90,0.2312911184210526
+reinforcement learning agent,90,0.2312911184210526
+mathematical models,89,0.22872121710526316
+electric network topology,79,0.20302220394736842
+function,77,0.19788240131578946
+trees (mathematics),73,0.18760279605263158
+motion and path planning,72,0.1850328947368421
+trajectory,72,0.1850328947368421
+roads and streets,71,0.18246299342105263
+semantics,66,0.16961348684210528
+heuristic algorithms,65,0.1670435855263158
+antenna,64,0.1644736842105263
+integer programming,62,0.15933388157894737
+shortest path planning,62,0.15933388157894737
+route planning time,61,0.1567639802631579
+network planning process,60,0.15419407894736842
+complex networks,59,0.15162417763157895
+navigation systems,58,0.1490542763157895
+geometry,58,0.1490542763157895
+intelligent vehicle highway systems,58,0.1490542763157895
+mobile robot control systems,58,0.1490542763157895
+industrial robots,58,0.1490542763157895
+autonomous vehicles,57,0.146484375
+problem solving,57,0.146484375
+genetic algorithms,56,0.1439144736842105
+artificial intelligence algorithms,55,0.14134457236842105
+3d printing,55,0.14134457236842105
+path planning problems,54,0.13877467105263158
+ant colony optimizations,53,0.1362047697368421
+energy utilization,52,0.13363486842105263
+decision making procedure,52,0.13363486842105263
+autonomous navigations,52,0.13363486842105263
+graphic methods,52,0.13363486842105263
+trajectory planning algorithm,51,0.13106496710526316
+computer aided design - robot applications,51,0.13106496710526316
+detector,51,0.13106496710526316
+multi agent systems,51,0.13106496710526316
+route,50,0.1284950657894737
+telecommunication networks,50,0.1284950657894737
+heuristic methods,49,0.1259251644736842
+agricultural robots,49,0.1259251644736842
+multipurpose robots,48,0.12335526315789473
+path planning method,48,0.12335526315789473
+neural networks (computer),47,0.12078536184210527
+deep learning algorithm,47,0.12078536184210527
+motion controller,46,0.11821546052631579
+energy efficiency,46,0.11821546052631579
+urban planning,46,0.11821546052631579
+path-planning problem,46,0.11821546052631579
+configuration space path planning,45,0.1156455592105263
+unknown environments,45,0.1156455592105263
+sensor nodes,45,0.1156455592105263
+computational geometry,45,0.1156455592105263
+efficiency,45,0.1156455592105263
+dynamic environments,45,0.1156455592105263
+topology optimization method,44,0.11307565789473685
+multi-robot systems,43,0.11050575657894736
+topological structures,43,0.11050575657894736
+virtual reality simulations,42,0.10793585526315791
+sensor networks localization,40,0.10279605263157894
+robot navigation,40,0.10279605263157894
+autonomous mobile robots (amr),40,0.10279605263157894
+routing algorithms,40,0.10279605263157894
+kinematics,40,0.10279605263157894
+road network generation,39,0.10022615131578948
+air navigation,39,0.10022615131578948
+aerial vehicles,38,0.09765625
+network routing,38,0.09765625
+iterative methods,38,0.09765625
+shape optimization algorithms,38,0.09765625
+quality of service (qos),38,0.09765625
+learning algorithms,37,0.09508634868421052
+conformal mapping,36,0.09251644736842105
+router,35,0.08994654605263158
+voronoi diagrams,35,0.08994654605263158
+operator,35,0.08994654605263158
+network architecture,34,0.0873766447368421
+intelligent systems,34,0.0873766447368421
+vehicle,34,0.0873766447368421
+fiber optic networks,34,0.0873766447368421
+motor transportation,34,0.0873766447368421
+optimal paths,34,0.0873766447368421
+topological informations,33,0.08480674342105264
+reinforcement learnings,33,0.08480674342105264
+computational complexity,33,0.08480674342105264
+global path planning,33,0.08480674342105264
+optimal path planning,32,0.08223684210526315
+wavelength division multiplexing (wdm) networks,32,0.08223684210526315
+obstacle avoidance (oa) behaviors,32,0.08223684210526315
+collision-free paths planning,32,0.08223684210526315
+image processing technique,32,0.08223684210526315
+topological graphs,31,0.07966694078947369
+travel time forecasting,31,0.07966694078947369
+telecommunication traffic,31,0.07966694078947369
+machine design,31,0.07966694078947369
+computer vision,31,0.07966694078947369
+automation,31,0.07966694078947369
+traffic control,31,0.07966694078947369
+costs,30,0.07709703947368421
+topology optimisation,30,0.07709703947368421
+geographic information systems (gis),30,0.07709703947368421
+3d printers,30,0.07709703947368421
+motion-planning,29,0.07452713815789475
+degrees of freedom (mechanics),29,0.07452713815789475
+bandwidth,29,0.07452713815789475
+structural optimization,29,0.07452713815789475
+drone,29,0.07452713815789475
+traffic engineering,29,0.07452713815789475
+transportation planning,28,0.07195723684210525
+real time systems,28,0.07195723684210525
+learning systems,28,0.07195723684210525
+traffic congestion,28,0.07195723684210525
+slam,28,0.07195723684210525
+mesh generation,28,0.07195723684210525
+bunch,27,0.06938733552631579
+numerical methods,27,0.06938733552631579
+scheduling,27,0.06938733552631579
+particle swarm optimization algorithm,27,0.06938733552631579
+indoor environments,27,0.06938733552631579
+particle swarm optimization (pso),27,0.06938733552631579
+computational efficiency,27,0.06938733552631579
+evolutionary algorithms,27,0.06938733552631579
+topological relationships,26,0.06681743421052631
+machine learning models,26,0.06681743421052631
+stochastic systems,26,0.06681743421052631
+mobile robot navigation system,26,0.06681743421052631
+graph neural networks,26,0.06681743421052631
+autonomous agents,26,0.06681743421052631
+internet protocols (ip),26,0.06681743421052631
+autonomous underwater vehicles (auv),26,0.06681743421052631
+robot path-planning,26,0.06681743421052631
+autonomous exploration methods,26,0.06681743421052631
+urban transportation systems,26,0.06681743421052631
+highway planning,26,0.06681743421052631
+topological maps,26,0.06681743421052631
+resource allocation decision,26,0.06681743421052631
+dynamic programming principle,25,0.06424753289473685
+performance,25,0.06424753289473685
+routings,25,0.06424753289473685
+routing protocols,25,0.06424753289473685
+complex network theory,25,0.06424753289473685
+electric power transmission networks,25,0.06424753289473685
+path finding problems,24,0.061677631578947366
+cost functions,24,0.061677631578947366
+intelligent transportation systems (its),24,0.061677631578947366
+genetic algorithm approach,24,0.061677631578947366
+wireless networks,24,0.061677631578947366
+multiobjective optimization,24,0.061677631578947366
+economic and social effects,24,0.061677631578947366
+urban environments,24,0.061677631578947366
+design,23,0.059107730263157895
+unmanned vehicles,23,0.059107730263157895
+computer graphics - applications,23,0.059107730263157895
+coverage path planning algorithm,23,0.059107730263157895
+dijkstra algorithms,23,0.059107730263157895
+clustering algorithms,23,0.059107730263157895
+internet,23,0.059107730263157895
+hybrid mapping,23,0.059107730263157895
+additive,23,0.059107730263157895
+grid maps,23,0.059107730263157895
+path planners,23,0.059107730263157895
+roadmaps,23,0.059107730263157895
+vehicular ad hoc networks,22,0.056537828947368425
+trajectory optimization,22,0.056537828947368425
+swarm intelligence algorithms,22,0.056537828947368425
+robot learning,22,0.056537828947368425
+probability,22,0.056537828947368425
+indoor positioning systems,22,0.056537828947368425
+voronoi graphs,22,0.056537828947368425
+catastrophe,22,0.056537828947368425
+simulated annealing algorithms,22,0.056537828947368425
+network protocols,22,0.056537828947368425
+model,22,0.056537828947368425
+in-band network telemetry-quick-search,22,0.056537828947368425
+simulation,22,0.056537828947368425
+computer networks,22,0.056537828947368425
+uncertainty,22,0.056537828947368425
+short-path,21,0.053967927631578955
+topological properties,21,0.053967927631578955
+wireless telecommunication systems,21,0.053967927631578955
+benchmarking systems,21,0.053967927631578955
+multi agent deep q-network,21,0.053967927631578955
+transportation_system,21,0.053967927631578955
+constraint theory,21,0.053967927631578955
+cluttered environments,21,0.053967927631578955
+electric vehicles (evs),21,0.053967927631578955
+article,21,0.053967927631578955
+linear programming,21,0.053967927631578955
+autonomous driving map data standard,21,0.053967927631578955
+telemetering equipment,21,0.053967927631578955
+ad hoc networks,21,0.053967927631578955
+task analysis,20,0.05139802631578947
+internet of things (iot),20,0.05139802631578947
+real- time,20,0.05139802631578947
+model predictive controllers,20,0.05139802631578947
+q-learning method,20,0.05139802631578947
+risk assessment,20,0.05139802631578947
+network analysis models,20,0.05139802631578947
+rapidly-exploring random trees,20,0.05139802631578947
+complex environments,20,0.05139802631578947
+image segmentation,20,0.05139802631578947
+additive manufacturing technology,20,0.05139802631578947
+dijkstra's algorithms,20,0.05139802631578947
+distributed computer systems,20,0.05139802631578947
+cost effectiveness,20,0.05139802631578947
+traveling salesman problem (tsp),20,0.05139802631578947
+monte carlo methods,19,0.048828125
+planning methodology,19,0.048828125
+interpolation,19,0.048828125
+mobile telecommunication systems,19,0.048828125
+computer software maintenance,19,0.048828125
+wave functions,19,0.048828125
+large-scales,19,0.048828125
+satellite,19,0.048828125
+tool path generation,19,0.048828125
+collisions avoidance,19,0.048828125
+integer linear programming models,19,0.048828125
+matlab- software,19,0.048828125
+dependability,19,0.048828125
+efficient path planning,19,0.048828125
+computation theory,19,0.048828125
+obstacles avoidance,19,0.048828125
+simultaneous localization and mapping algorithms,18,0.04625822368421052
+optimization algorithms,18,0.04625822368421052
+china,18,0.04625822368421052
+handiness,18,0.04625822368421052
+potential field representation,18,0.04625822368421052
+constrained motion planning,18,0.04625822368421052
+tool path planning,18,0.04625822368421052
+camera,18,0.04625822368421052
+metric maps,18,0.04625822368421052
+industry,18,0.04625822368421052
+robot motion planning,18,0.04625822368421052
+map buildings,18,0.04625822368421052
+polynomial approximation,18,0.04625822368421052
+optical communication networks,18,0.04625822368421052
+forestry,18,0.04625822368421052
+traffic management centers,18,0.04625822368421052
+strategic planning process,18,0.04625822368421052
+deep reinforcement learning,18,0.04625822368421052
+computer aided manufacturing,18,0.04625822368421052
+data collection process,17,0.04368832236842105
+constrained optimization problem,17,0.04368832236842105
+flight paths,17,0.04368832236842105
+automatic guided vehicles,17,0.04368832236842105
+network designs,17,0.04368832236842105
+directed graphs,17,0.04368832236842105
+orbit,17,0.04368832236842105
+graph algorithms,17,0.04368832236842105
+redundancy,17,0.04368832236842105
+biomimetics,17,0.04368832236842105
+visual_image,17,0.04368832236842105
+shortest path algorithms,17,0.04368832236842105
+toolpaths,17,0.04368832236842105
+automated guided vehicles,17,0.04368832236842105
+computational methods,17,0.04368832236842105
+location,17,0.04368832236842105
+transportation routes,17,0.04368832236842105
+accountant,16,0.041118421052631575
+large scale systems,16,0.041118421052631575
+visibility,16,0.041118421052631575
+topological constraints,16,0.041118421052631575
+robot applications,16,0.041118421052631575
+local path-planning,16,0.041118421052631575
+topology structure diagram,16,0.041118421052631575
+self organizing maps (som),16,0.041118421052631575
+semantic mapping,16,0.041118421052631575
+machine,16,0.041118421052631575
+modular robots,16,0.041118421052631575
+search algorithms,16,0.041118421052631575
+data acquisition,16,0.041118421052631575
+optical fibers,16,0.041118421052631575
+multirobots,16,0.041118421052631575
+ground vehicles,16,0.041118421052631575
+optimal control systems,16,0.041118421052631575
+information management,15,0.038548519736842105
+medial axis transformations,15,0.038548519736842105
+uav collaboration,15,0.038548519736842105
+manifold,15,0.038548519736842105
+planning framework,15,0.038548519736842105
+planning algorithms,15,0.038548519736842105
+behavioral research,15,0.038548519736842105
+combinatorial optimization problems,15,0.038548519736842105
+microrobots,15,0.038548519736842105
+optimal systems,15,0.038548519736842105
+three dimensional computer graphics,15,0.038548519736842105
+map,15,0.038548519736842105
+5g mobile communication systems,15,0.038548519736842105
+environment modeling,15,0.038548519736842105
+investing,15,0.038548519736842105
+visual servoing,15,0.038548519736842105
+homotopies,15,0.038548519736842105
+mixed integer linear programming model,15,0.038548519736842105
+dynamic path planning,15,0.038548519736842105
+restoration,15,0.038548519736842105
+data structures,14,0.03597861842105263
+knowledge based systems,14,0.03597861842105263
+map representations,14,0.03597861842105263
+occupancy grids,14,0.03597861842105263
+heuristic search algorithms,14,0.03597861842105263
+unmanned ground vehicles,14,0.03597861842105263
+heuristics algorithm,14,0.03597861842105263
+mobile agents,14,0.03597861842105263
+inverse kinematics,14,0.03597861842105263
+path planning for multiple mobile robots or agents,14,0.03597861842105263
+building,14,0.03597861842105263
+budget control,14,0.03597861842105263
+localization,14,0.03597861842105263
+knowledge representation and reasoning,14,0.03597861842105263
+hierarchical systems,14,0.03597861842105263
+set theory,14,0.03597861842105263
+aerial systems: applications,14,0.03597861842105263
+robot path planning,14,0.03597861842105263
+job analysis,14,0.03597861842105263
+control theory,14,0.03597861842105263
+transportation systems,14,0.03597861842105263
+prediction,14,0.03597861842105263
+optimal path selection,14,0.03597861842105263
+topological representation and abstraction of configuration spaces,14,0.03597861842105263
+a* algorithm,14,0.03597861842105263
+indoor navigation system,14,0.03597861842105263
+satellite network routing,14,0.03597861842105263
+remote sensing data,14,0.03597861842105263
+transportation networks,14,0.03597861842105263
+betweenness centrality,14,0.03597861842105263
+cost benefit analysis,14,0.03597861842105263
+dynamics,13,0.03340871710526316
+machine tools,13,0.03340871710526316
+architectural design,13,0.03340871710526316
+optimal solutions,13,0.03340871710526316
+gateways (computer networks),13,0.03340871710526316
+convex optimization theory,13,0.03340871710526316
+data handling,13,0.03340871710526316
+regional planning,13,0.03340871710526316
+deposition,13,0.03340871710526316
+information theory (it),13,0.03340871710526316
+free spaces,13,0.03340871710526316
+decision trees,13,0.03340871710526316
+multiple mobile robots,13,0.03340871710526316
+autonomous systems (as),13,0.03340871710526316
+smart grid communication network,13,0.03340871710526316
+fiber,13,0.03340871710526316
+path optimizations,13,0.03340871710526316
+network layers,13,0.03340871710526316
+kinematic constraints,13,0.03340871710526316
+global positioning system,13,0.03340871710526316
+electric power distribution networks,13,0.03340871710526316
+planning process,13,0.03340871710526316
+three dimensional path planning,13,0.03340871710526316
+communication,13,0.03340871710526316
+fiber reinforced plastics,13,0.03340871710526316
+urban areas,13,0.03340871710526316
+cable,13,0.03340871710526316
+topological path planning,13,0.03340871710526316
+planning problem,13,0.03340871710526316
+network optimization,13,0.03340871710526316
+energy efficient routing protocol,13,0.03340871710526316
+network security,13,0.03340871710526316
+multi-robot path planning,13,0.03340871710526316
+artificial potential fields method,13,0.03340871710526316
+ant colony algorithms,13,0.03340871710526316
+vector,13,0.03340871710526316
+continuous fibers,13,0.03340871710526316
+optimization problems,13,0.03340871710526316
+shortest path problems,13,0.03340871710526316
+object recognition,13,0.03340871710526316
+planning strategies,12,0.030838815789473683
+approximation theory,12,0.030838815789473683
+manipulation planning,12,0.030838815789473683
+robustness (control systems),12,0.030838815789473683
+simulation results,12,0.030838815789473683
+graph-based search,12,0.030838815789473683
+grid computing,12,0.030838815789473683
+markov processes,12,0.030838815789473683
+global optimization,12,0.030838815789473683
+occupancy grid map,12,0.030838815789473683
+robotic arms,12,0.030838815789473683
+parallel manipulators,12,0.030838815789473683
+resilience,12,0.030838815789473683
+task allocation,12,0.030838815789473683
+collision detection,12,0.030838815789473683
+wdm networks,12,0.030838815789473683
+end effectors,12,0.030838815789473683
+simulation platform,12,0.030838815789473683
+quality control,12,0.030838815789473683
+localization_of_function,12,0.030838815789473683
+target searching,12,0.030838815789473683
+robot kinematics,12,0.030838815789473683
+complete coverage path planning (ccpp),12,0.030838815789473683
+network-based reconfiguration,12,0.030838815789473683
+redundant manipulators,12,0.030838815789473683
+feature extraction,12,0.030838815789473683
+agricultural machinery,12,0.030838815789473683
+online systems,12,0.030838815789473683
+homo,12,0.030838815789473683
+vanets topology,12,0.030838815789473683
+probability distributions,12,0.030838815789473683
+optimality,12,0.030838815789473683
+mobile sinks,12,0.030838815789473683
+re-planning,12,0.030838815789473683
+power management (telecommunication),11,0.028268914473684213
+mechanism,11,0.028268914473684213
+visual navigation,11,0.028268914473684213
+5g base station,11,0.028268914473684213
+topological features,11,0.028268914473684213
+autonomous underwater vehicle (auv)-aided data collection,11,0.028268914473684213
+embedded systems,11,0.028268914473684213
+crowd simulation,11,0.028268914473684213
+mixed-integer linear programming,11,0.028268914473684213
+data mining,11,0.028268914473684213
+query processing algorithms,11,0.028268914473684213
+product design,11,0.028268914473684213
+decision support systems,11,0.028268914473684213
+telecommunication services,11,0.028268914473684213
+free-form surfaces,11,0.028268914473684213
+position control,11,0.028268914473684213
+sampling-based planner,11,0.028268914473684213
+satellite communication systems,11,0.028268914473684213
+formation control,11,0.028268914473684213
+matrix algebra,11,0.028268914473684213
+traffic assignment models,11,0.028268914473684213
+agribusiness,11,0.028268914473684213
+robotic assembly,11,0.028268914473684213
+skeletonization algorithm,11,0.028268914473684213
+objective functions,11,0.028268914473684213
+hierarchical planning architecture,11,0.028268914473684213
+transport networks,11,0.028268914473684213
+curve fitting,11,0.028268914473684213
+vehicle to vehicle communications,11,0.028268914473684213
+point cloud compression,11,0.028268914473684213
+toolpath planning,11,0.028268914473684213
+energy-consumption,11,0.028268914473684213
+unstructured environments,11,0.028268914473684213
+manipulation tasks,11,0.028268914473684213
+coverage,11,0.028268914473684213
+multipath planning,11,0.028268914473684213
+elastic optical networks (eons),11,0.028268914473684213
+multi-agent systems (mass),11,0.028268914473684213
+topological approach,11,0.028268914473684213
+mesh networking,11,0.028268914473684213
+musculoskeletal system,11,0.028268914473684213
+care,11,0.028268914473684213
+optical networks,11,0.028268914473684213
+deformable objects,11,0.028268914473684213
+ant colonies algorithm,10,0.025699013157894735
+approximation algorithms,10,0.025699013157894735
+tool paths planning,10,0.025699013157894735
+control systems - analysis,10,0.025699013157894735
+dynamic network flow problem,10,0.025699013157894735
+unmanned surface vehicles (usvs),10,0.025699013157894735
+path protection routing,10,0.025699013157894735
+cognitive map learners,10,0.025699013157894735
+robotic systems,10,0.025699013157894735
+nanorobots,10,0.025699013157894735
+multi-objective optimizations,10,0.025699013157894735
+intelligent agents,10,0.025699013157894735
+electric network analysis,10,0.025699013157894735
+robot sensing systems,10,0.025699013157894735
+multi-modal feature fusion,10,0.025699013157894735
+principal stress orientation,10,0.025699013157894735
+relay placements,10,0.025699013157894735
+distributed control,10,0.025699013157894735
+network capacity planning,10,0.025699013157894735
+optimization and optimal control,10,0.025699013157894735
+exploration,10,0.025699013157894735
+inverse problems,10,0.025699013157894735
+scheduling algorithms,10,0.025699013157894735
+reachability analysis,10,0.025699013157894735
+sampling-based planning,10,0.025699013157894735
+wsn topologies,10,0.025699013157894735
+planning under uncertainty,10,0.025699013157894735
+wireless sensor network (wsns),10,0.025699013157894735
+communication topologies,10,0.025699013157894735
+uncertainty analysis,10,0.025699013157894735
+machine-learning,10,0.025699013157894735
+load-balancing algorithm,10,0.025699013157894735
+state of the arts,10,0.025699013157894735
+network management algebra,10,0.025699013157894735
+life cycle cost analysis,10,0.025699013157894735
+swarm optimization algorithms,10,0.025699013157894735
+computational time and memory,10,0.025699013157894735
